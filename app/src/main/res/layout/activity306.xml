@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity306">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vivanta Dal View, Srinagar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vivantasri" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Vivanta Dal View. Celebrate a new high in the valley. Vivanta Dal View, Srinagar delights you with a nice new buzz that makes it high spot of style in the valley. Drive in just 20 km from Srinagar International Airport and find delightful backseat surprises (we're not revealing here) along the way. As the road winds up to the main entrance check out the stunning views around every bend. And these change with the seasons. Get a bird's eye view of the spring-summer magical bloom of the Tulip Gardens, the snow-capped peaks of the Zabarwan range in winter, Gulmarg range in spring and the golden glow of the Chinars in autumn. Accented in copper, local timber carvings and warm earthy colours, our hotel in Srinagar evokes the spirit and ethos of the valley, while its unique design echoes the Vivanta philosophy of hospitality with a difference. The vibrant reception leads seamlessly to a tea lounge where you can unwind in the company of speciality coffees and the famed Kashmiri herbal tea Kahwa. Perched on Kralsangri hill that captures finest panoramic view of the Dal Lake, surrounded by majesty of Zabarwan Mountains, it is a paradise rediscovered, in a stylish new avatar. A modern and contemporary space which has the essence of Kashmir wonderfully woven in."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The LaLiT Grand Palace Srinagar"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lalitgrandsri" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Designed and built by Maharaja Pratap Singh in 1910, The LaLiT Grand Palace stands witness to key events in India’s history and proudly continues the royal legacy with élan. Encircled by the Himalayan ranges and overlooking picturesque Dal Lake, it operates 113 well-equipped palace guest rooms, including 10 cottages boasting of magnificent decor and over 4,000 square feet of banqueting space, conference facilities, and a shopping arcade."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Four Points by Sheraton Srinagar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fourpointssri"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The first international hospitality venture in the valley, Four Points by Sheraton Srinagar is where timeless classics are woven with modern details. Located in the most secure area in downtown Srinagar, India, our hotel is surrounded by the magnificent Himalayas and just a few kilometers from exemplary Dal Lake. The comforts of the hotel will immerse you in tranquility amidst the bustle of Srinagar. From our hotel, the iconic and majestic wonders of Srinagar are moments away, including Dal Lake, Tulip Garden, Shankaracharya Hill and key markets like Lal chowk, Floating market, Kashmiri Government Arts Emporium and Nehru Park Market. Your stay at our hotel will be distinguished by prime amenities like a 24-hour fitness centre, a kid’s playroom, a business travel desk, an all day restaurant, a lounge and more. For an exceptional hotel experience in Srinagar, India, Four Points By Sheraton Srinagar is the ideal home away from home."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

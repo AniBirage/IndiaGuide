@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity201">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Restaurants"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1135 AD, Jaipur"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/adjai" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This award-winning restaurant is nestled inside the imperial Amer Palace. Featuring an open-air courtyard that is canopied by the star-studded night sky, the restaurant serves an amalgamation of Mughlai, Rajasthani and North Indian delights. The gold-enameled walls, plush chairs, and the opulent tables can make any special occasion seem like a regal affair. A formal dining room and a private dining space decked up in silver and gold cater to the privacy of the who’s who of the city dining here."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Suvarna Mahal, Jaipur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/suvarnamahal" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Just like the name suggests, this plush restaurant which is the flagship dining venue at the palatial Rambagh Palace hotel run by the Taj Group is all about luxury. The Victorian interiors, Florentine ceiling decked with paintings and mirror-work, opulent tapestry and exorbitant silverware only make the experience more worthwhile. The live classical music resonates in the dining hall, which is quite reflective of the Maharaja’s tasteful lifestyle. Add to this mix a glass of vintage wine from the restaurant’s in-house cellar, and you get a fine-dining experience to cherish for a lifetime.The food here is, for want of a better word, awesome! Original dishes from the royal houses of Jaipur, Mewar, and Awadh are captured in the menu. From Jodhpuri Gatte and Murgh Ka Shorba to Lal Maas, you get everything here, that too with a touch of splendor. The top-class service and mouth-watering delicacies offer you a throw-back to the grandeur of the generations of royals who witnessed courtly pleasures for centuries."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Laxmi Mishthan Bhandar, Jaipur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/laxmimisthan"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Coming down to the most authentic way of accessing satvik Rajasthani bhojan, i.e. street eating, Laxmi Mishthan Bhandar is the foremost street food haven in Jaipur. Here, you can gorge on local delicacies that are simply unaltered and unadulterated. In the bustling streets of Johari Bazaar, you will find a neatly done, air-conditioned eatery that is thronged by hundreds on a daily basis for the real taste of Rajasthan. The thalis here are drool worthy; so is the dal-baati-churma, a local delicacy, which is actually a combination of three dishes with the healthiest of ingredients like lentils, pure ghee, hard round wheat and yogurt-blended bread, and coarsely grounded wheat mixed with sugar and ghee.All of you with a sweet tooth are in for a treat here with the milk cakes, ghewar and jalebis all waiting to be devoured. The mirchi vadas, kachoris, and every savory in between can elevate your senses. Laxmi Mishthan Bhandar testifies to the fact that even the royal flavors of the Pink City can come at budget-friendly prices."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

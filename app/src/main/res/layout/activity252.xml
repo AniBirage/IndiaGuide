@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity252">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Taj Mahal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tajmahal" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="One of the seven wonders of the world, the Taj Mahal stands tall at the south bank of the river Yamuna in Agra. Taj Mahal or the “icon of love” is one of the best places to visit in Agra and the most popular tourist destinations in India. It is also considered to be an epitome of the Mughal Architecture. The ivory-white marble mausoleum was built by Shah Jahan for his favorite wife Mumtaz. The monument is now where the tombs of the king and queen lie. Taj Mahal has also been designated as a UNESCO World Heritage Site for being a masterpiece recognized all across the world. Take a walk inside the Taj Mahal and you will feel as if you’re walking through history. The ornate architecture and alluring designs will transport you to the kingly times and leave you dazed."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Agra Fort"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/agrafort" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Agra Fort was one of the most important forts during the Mughal period and is one of the finest places to see in Agra today. Akbar the great called this fort his home throughout his reign till 1605. Just like the Taj Mahal, Agra Fort is also designated as a UNESCO World Heritage Site. History unfolds in front of your eyes as you walk through the many structures inside the fort, like Diwan-i-Khas, Khaas Mahal, etc."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Itmad-ud-Daula"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/itmad"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Another Mughal mausoleum on the bank of the river Yamuna, Itmad-Ud-Daulah’s Tomb is one of the best places to visit in Agra. The architecture and interior are known to be inspired by that of Taj Mahal’s as it also has traces of white marble from Rajasthan amidst the red sandstone. And for the same reason, it is also known as the “Baby Taj”. The tomb was built by Nur Jahan in 1628. The delicately designed jali screens from white marble beautifully light up the interior of the tomb. Don’t miss the semi-precious stones engraved in the white marble interiors of the tomb."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tomb of Akbar the Great"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/akbartomb"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Akbar’s Tomb was built by Jahangir in 1613. If you’re a history buff, this is one of the best places to visit in Agra for you. The tomb is built in red sandstone and holds some of the most stunning marble designs. As you walk into the building, you’ll find exquisite marble designs on the ceilings and mystical calligraphy towards the real underground tomb of Akbar. The biggest gate around the tomb is the south gate where you will see intricate white marble designs on the panels. The real tomb of Akbar is in a small underground room which has a very transcendent feel to it."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Moti Masjid"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/motimasjid"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The Moti Masjid or the Pearl Mosque was built by Shah Jahan in 1648 at the bank of river Yamuna. Although lesser known, it is one of the best places to visit in Agra. The mosque is well known for its delicate designs and architecture on shining white marble which gives it the name “pearl mosque”. But what attracts many tourists to visit this mosque is how it stands miraculously on a slope with several arched recessions and side arcades."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sikandra Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sikandrafort"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The Sikandra Fort homes the great emperor Akbar’s Tomb. The fort is known for its magnificent gates, tombs, and red sandstone designs which makes it one of the most visited tourist places in Agra. The fort is also known for its architecture which is a blend of Islamic and Hindu designs. Although the tomb is of Akbar- the greatest Mughal emperor, the architecture of this fort has a strong influence of Hindu architecture. This can be seen with the finials, balconies and window designs. As you will move around the fort, the excellent craftsmanship and intricate stone carvings will leave you astonished."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Panch Mahal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/panchmahal"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Panch Mahal is a palace in Fatehpur Sikri, Uttar Pradesh, India. The Panch Mahal meaning 'Five level Palace' was commissioned by Akbar. This structure stands close to the Zenana quarters Flamereaper who supports the supposition that it was used for entertainment and relaxation. This is one of the most important buildings in Fatehpur Sikri. This is an extraordinary structure employing the design elements of a Buddhist Temple; entirely columnar, consisting of four stories of decreasing size arranged asymmetrically on the ground floor, which contains 84 columns. These columns, that originally had jaali (screens) between them, support the whole structure. Once these screens provided purdah (cover) to queens and princess on the top terraces enjoying the cool breeze and watching splendid views of Sikri fortifications and the town nestling at the foot of the ridge."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

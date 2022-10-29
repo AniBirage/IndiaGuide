@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity148">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Indore Marriott Hotel"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/indoremarriott" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Indore Marriott Hotel welcomes travelers to India with luxury amenities, 5-star accommodations and a central location in Indore. Enjoy a seamless mobile check-in process before settling into your well-appointed guest room or suite, all of which feature complimentary Wi-Fi, plush bedding and floor-to-ceiling windows. Stay connected with the latest technology and relish in details like Belgian floors and Italian marble bathrooms. Awaken refreshed and take advantage of our curated 5-star amenities, including a variety of dining destinations, a modern spa with fitness centre and an outdoor pool. Centrally located, our hotel offers guests easy access to Brilliant Convention Centre and other notable points of interest. One of the area's premier wedding and meeting destinations, our hotel also features a variety of luxury venues, including a beautiful outdoor lawn. Come chart your own adventure at Indore Marriott Hotel."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sayaji Hotel Indore"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sayajiindore" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Celebrate Indore's heritage at the luxurious Sayaji, featuring multiple restaurants with global cuisines &amp; the Grand Lounge bar. Hotel Sayaji reflects the true spirit of Indore, Central India's financial capital, in the way it brings together tradition and contemporary luxury. Major tourist destinations in the city, like Vijay Nagar and Khajrana Ganesh Temple, are within 5 km of the hotel. The sprawling hotel contains many rooms, built and decorated in a modern fashion with cutting-edge technology, the hotel is the perfect place to set up camp for business travellers, along with modern amenities such as Internet connectivity, air-conditioning and LCD TVs. The hotel provides a range of facilities to its guests, to ensure their safety and comfort in the duration of the stay. In terms of dining options, the guests are spoilt for choice, with the host of on-site restaurants at the hotel. For a drink, head over to Grand Lounge, which has some of the best wines and spirits from around the globe."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Radisson Blu Hotel Indore"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radissonindore"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Located in the serene neighborhood of Vijay Nagar, the Radisson Blu Hotel Indore promises an unforgettable stay with unparalleled service from our attentive staff. Our hotel’s convenient location places you within five miles (eight kilometers) of the city center and less than 12 miles (19 kilometers) from Devi Ahilyabai Holkar Airport (IDR), making arrivals and departures a breeze. Visiting Indore to meet with clients? We’re close to several local business parks, and, thanks to our proximity to AB Road and National Highway 52, the industrial towns of Dewas and Pithampur are an easy drive away. Carve out time in your busy itinerary to enjoy a swim in our rooftop pool or revitalizing treatments in our spa. You can admire sweeping city views from the treadmill in our well-equipped fitness center. After your workout, visit the on-site beauty salon to ensure you look perfectly polished for dinner in one of our elegant restaurants."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

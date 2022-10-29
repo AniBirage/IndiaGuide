@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity179">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Restaurants"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bocca Cafe"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bocca" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Bocca Cafe in Bhubaneshwar is a famous hangout spot for youngsters where they spend hours catching up with their friends. What makes them stay here for so long is the lively atmosphere and finger-licking food. You will find sandwiches, smoothies, cold and hot brews, crepes and pancakes amongst other things on Bocca Cafe Bhubaneshwar menu. The cafe is spacious and has ample space for seating. It generally gets crowded in the evenings. Try the Chicken Ham &amp; Cheese Sandwich and French Crepes."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Big Bike Hub Cafe"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/thebigbike" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="This charming cafe is located in Patia where you will be swayed away with classy, chic interiors. It is a perfect place to sit in a corner and complete reading your book. You can even bring your laptop and work here in an ambient environment. The food and service are both equally amazing. The cafe has a large menu featuring salads, sandwiches, burgers, pasta, and all day breakfast among other things. As the name suggests, you will find a bullet bike standing in aplomb and inspiring you to get out and travel. What makes it one of the amazing cafes in Bhubaneshwar that it is not pricey at all. You can eat more than you can with less than you can spend."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chai Break"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chaibreak"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Chai Break in Bhubaneshwar is your go-to place for casual hangouts and fun. The food and ambiance are both so great you will find no reason to complain. The cafe menu offers a plethora of options in different cuisines. From North Indian to Italian, Continental to Mexican, you will be pampered with choices. The portion sizes and cost are generous too. The staff is very caring and attentive to the wanst of customers. Enjoy professional service and hospitality at Chai Break. There are two outlets in Bhubaneshwar; one on Sahid Nagar and another one in Patia, and both are equally great."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

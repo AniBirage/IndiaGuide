@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="INDIA GUIDE"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="India, officially the Republic of India , is a country in South Asia. It is second largest country in population and seventh largest country by land area. It is also the most populous democracy in the world, bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast. It has seven neighbors: Pakistan in north-west, China in north, and Myanmar in east and Sri Lanka in south. The Andaman and Nicobar Islands, a union territory of India, is also near Thailand and Indonesia along with Myanmar.
+The capital of India is New Delhi. India is a peninsula, bound by the Indian Ocean in the south, the Arabian Sea on the west and Bay of Bengal in the east.India has the second largest military force in the world and is also a nuclear weapon state."
+                android:textAlignment="center"
+                android:textColor="#304FFE"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="States of India"
+                android:textColor="#C51162"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="ANDHRA PRADESH" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="ARUNACHAL PRADESH" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="ASSAM" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="BIHAR"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="CHHATTISGARH"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="GOA"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="GUJARAT"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="HARYANA"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="HIMACHAL PRADESH"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="JHARKHAND"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="KARNATAKA"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="KERALA"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button12"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="MADHYA PRADESH"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button13"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="MAHARASHTRA"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button14"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="MANIPUR"/>
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button15"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="MEGHALAYA"/>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="MIZORAM"/>
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button17"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="NAGALAND"/>
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button18"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="ODISHA"/>
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button19"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="PUNJAB"/>
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button20"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="RAJASTHAN"/>
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button21"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="SIKKIM"/>
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button22"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="TAMIL NADU"/>
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button23"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="TELANGANA"/>
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button24"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="TRIPURA"/>
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button25"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="UTTAR PRADESH"/>
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button26"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="UTTARAKHAND"/>
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button27"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="WEST BENGAL"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Union Territories of India"
+                android:textColor="#C51162"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button28"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="ANDAMAN &amp; NICOBAR ISLANDS"/>
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button29"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="CHANDIGARH"/>
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button30"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="DADRA &amp; NAGAR HAVALI &amp; DAMAN &amp; DIU"/>
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button31"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="DELHI"/>
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button32"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="JAMMU &amp; KASHMIR"/>
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button33"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="LADAKH"/>
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button34"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="LAKSHADWEEP"/>
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button35"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/black"
+                android:text="PUDUCHERRY"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

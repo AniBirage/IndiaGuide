@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity246">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bara Imambara"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baraimambara" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Bara Imambara, also known as Asfi Imambara is an imambara complex in Lucknow, India built by Asaf-ud-Daula, Nawab of Awadh in 1784. Bara means big. This imambara is the second largest after the Nizamat Imambara."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chota Imambara"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chotaimambara" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="When you look for important Places to visit in Lucknow, then you will come across a place called ‘Chota Imambara’. This too is a historical spot built by Muhammad Ali Shah, the Nawab of Awadh in 1838. The Chota Imambara is an architectural marvel and its unique features are the chandeliers that adorn the structure -thereby goes the name as the Palace of Lights. Bought by the Nawab from Belgium these chandeliers are lit up during special festivals like Muharram. It is yet another one of the best Places to see in Lucknow."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rumi Darwaza"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rumidarwaza"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="You definitely cannot give this unique architectural marvel a miss while selecting the most important Places to visit in Lucknow. The Rumi Darwaza is a gateway between the Bara Imambara and the Chota Imambara. It is one of the few remaining examples of Awadhi architecture featuring a huge gateway that is sixty feet tall. This gate has been named after the famous thirteenth century Muslim Sufi mystic, Jalal ad-Din Muhammad Rumi. The Rumi Darwaza is one of most famous Tourist attractions in Lucknow which is accessible by the public all day."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="British Residency"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/british"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The British Residency, which stands witness to the Revolt of 1857 must feature in the list of the most important Places to visit in Lucknow. The Residency Complex  consists of several individual structures and is not only rich in history, but it is also an everlasting example of British architectural skills. If you are a history enthusiast and you want to relive the Sepoy Mutiny then a visit to the Residency Building in Lucknow is a must. Although, most of the structures are in ruins now, you can still visit the cemetery, the church and the graves of people who died in the Siege."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chhatar Manzil"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chhatar"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="If you are looking for Tourist attractions in Lucknow that are rich in historical and cultural heritage, then you must pay a visit to the Chattar Manzil. Standing on the banks of the River Gomti, this palace has been home to the great Nawabs of Lucknow. The structure consists of the Bari and Choti Manzils of which only the Bari Manzil survives. The Chattar Manzil should be on the top in your list of Places to visit in Lucknow. This historical structure has octagonal domes that cover the top of the individual structures. It is from these domes that the building gets its name Chattar or umbrella."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ambedkar Memorial Park"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ambedkar"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The Ambedkar Memorial Park in Lucknow too is one of the most important Places to see in Lucknow. It is also known as Dr. Bhimrao Ambedkar Samajik Parivartan Prateek Sthal. The park covers an area of one hundred and seven acres. The park has museums and galleries commemorating the life of Ambedkar and other great freedom fighters of India. The entrance to the park is a unique one as both sides of the path are lined by sixty two majestic stone elephants."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

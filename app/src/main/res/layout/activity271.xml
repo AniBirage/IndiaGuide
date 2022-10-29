@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity271">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nainital Lake"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nainilake" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="One of the most beautiful lakes of the country, Nainital lakes is known for its exquisiteness. It is one of the four lakes of Kumaun Hills which includes the Sattal Lake, Bhimtal Lake and the Naukuchiyatal Lake besides the Nainital Lake. The famous lake finds its mentions in ancient scriptures and many poems by prominent writers. Naina Devi Temple is situated on this lake where it is believed that Sati’s eye’s fell to earth after her act of self-immolation. The lake is surrounded by the green hills which give the town a mesmerizing landscape. Being a natural freshwater lake, all nature lovers find the lake a charming site to sit, relax and spend some quality time either by oneself or with their loved ones. Lately, environmentalists have cited worries regarding the health of this lake and preservation measures are gaining momentum to save this natural treasure. Your visit to Nainital Lake will be incomplete if you do not try out the famous boat rides. The activity will give you a picturesque view of the Lake District and an opportunity to click great pictures. If you’re a morning person, we say you go for a walk around this beautiful lake with fresh air and rays of sun pouring through the clouds before you embark upon the day adventures in Nainital. And if you don’t like mornings, an evening stroll by the lake is equally charming with all the bright lights across the night sky."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tiffin Top"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tiffintop" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="One of the popular picnic spots in Nainital, the Tiffin Top is a place where you can get enjoy the spectacular scenery of Nainital from its highest point. Also called the Dorothy’s Seat, it is located on the Ayarpatta Hills, offering a gorgeous 360 degree view of the Lake District. It was named Dorothy’s Seat by a British Army Officer in the memory of her wife Dorothy Kellet who died from septicemia. The Kumaun Hills which surround this location give the place calm and serene scenery making it a delight for all visitors. If you love hiking, the Tiffin Top makes for an exemplary 4 km ride from the main city where you can go by foot or hire a pony that are easily available from the Mall Road. The horse riding up the hill is full of adventure and fun if you go with your friends and family. Other activities like Rapelling and Rock Climbing are also conducted in the Tiffin Top. However, most activities are recommended to be undertaken during the day to enjoy the experience. The magnificent views and the panoramic landscapes offer an opportunity for photographers to capture one of the most amazing lakes and hills of the country. Nature lovers are sure to enjoy the beauty of this place which resonates with tranquility and exquisiteness."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Snow View Point"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/snowviewpoint"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="If we check out the most visited tourist spots in Nainital, Snow view point is surely the most visited and loved spot by people all over. The mountain also has a temple to which residents’ worship. While you move in the cable rope, you can have a great view of the Nainital lake. The point is around 3 Km from the town of Nainital and you can travel there through either cable rope or your car. If you are comfortable, you can also visit Snow view point by walking there or book a taxi if you prefer it. From the top of the mountain, you can have a full view of the city which looks just marvelous. If you notice, there will be a place which says The highest mountain in the British empire. Before Sikkim became a part of India, Naina Devi was India's highest peak."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mall Road"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mallroad"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Constructed during the British colonial rule, Mall Road is the primary road which goes through the core of the Nainital town parallel to the lake, interfacing the two closures of the town. It is now named as the Govind Ballabh Pant Marg. The road is one of the most vibrant places to visit in Nainital. Mall Road has a number of hotels, travel agencies, banks, showrooms, department stores, shops, restaurants and cafes. You will find some of the best hotels and restaurants of Nainital located on the Mall Road.It is one of the busiest and crowded during the day time. Parking is prohibited and the road is closed for vehicles during the peak seasons so that the tourists can easily walk besides the lake on this famous road in Nainital. With the cool wind blowing over the lake through the road, a night walk around the mall has its own particular appeal. It is a famous shopping center among tourists and provides a splendid view of the Nainital Lake. Some specialties which you can find here include unique candles in different shapes and sizes. Wooden artifacts and locally produced handloom products are also popular among the tourists. Handicraft and gift items adore the shops here and a delight for tourists looking for shopping on a holiday. Also an interesting fact about this place is that many popular Bollywood movies like Kati Patang and Koi Mil Gaya were shot here."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Naina Peak West"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nainapeakwest"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Situated at an altitude of 2,615 km, Naina Peak is known for its breathtaking bird's eye perspective of the town, the Himalayas and furthermore, the immense breadths of the Terai areas of Kumaon. The Nanda Devi Peak and the mountains of the Tibet border are visible from the top of this peak. Also known as the China Peak (before the 1962 Indo-China war), it is situated at a 10 km distance from the Tallital Bus Stand of Nainital. The famous place is one of the most recommended places to visit in Nainital on a vacation. It is a delight for individuals who adore strolling. One can go for long strolls, breath fresh air and appreciate the picturesque excellence. Because of high elevation and rich green forest path, Naina Peak is likewise a most loved place in Nainital for trekking. The trek to Naina could be a little tricky, covering a length of 6 km from Mallital. One can reach the place by t riding a horse or by navigating the sloping ways. From Snow View Point or Mallital, one can hire pony or horses to visit this peak. No shops are accessible on the peak. In this way, it is best recommended for you to carry your own eateries and drinking water for your picnic. Enjoy a photography session as the place offers some of the best perspectives of the snow-clad pinnacles of Himalayas. The place is well-known among the travelers for its sentimental nightfall and dawn."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cave Garden"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ecocave"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Situated within proximity of Nainital's famous Mall Road, Eco Cave Garden is one of those tourist places in Nainital which have gained importance in the recent past. A cluster of natural caves transformed into a cave garden, Eco Cave Gardens is home to 6 intriguing animal-shaped caves that offers children as well as adults an opportunity to experience several animals in an almost-natural habitat. Adorned with a musical fountain with audio-visual effects, the caves also have a series of exquisite hanging gardens along the caved pathways. Dedicated to the wildlife species of the Kumaon region, the Eco Cave Gardens is of high importance to Nainital tourism."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Raj Bhawan Governor House"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/governorhouse"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Built by the British as a residence for the Governor of then Northwest Province of India, the Raj Bhawan is one of the most recommended places to visit in Nainital. Raj Bhawan was built as a replica of Buckingham Palace built in Victorian Gothic style designed by the architect F.W Stevens. Spread over 200 acres of land, this place is famous for its Golf Course which is counted as one of the vintage golf courses of India and many golf tournaments are organized here. Some other great places in the complex include a swimming pool, garden, Jhandidhar Modi Heights and Munshi heights. The lush green area is decorated by Deodhar and oak trees which give the place a serene landscape. The charm of British architecture and the calm and splendid scenery around the place makes Raj Bhawan one of the most famous tourist attractions of Nainital. The Raj Bhawan remains closed on Sundays and all other national holidays. The timings for visiting are 8 am to 5 pm/4 pm and 6 pm. It is located 3 km from Mall Road of the city. One can easily reach the place by walking or taking a rickshaw from Nainital Bus Stand. Some facts include, it is the only Raj Bhawan open for tourists in India and post-independence, Sarojini Naidu was the first occupant of the place."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hanuman Garhi"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hanumangarhinainital"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Situated at an elevation of 1950 meters, Hanuman Garhi is one of the most important religious places to visit in Nainital. Around 3 kilometres from the centre of Nainital, the temple is dedicated to the Hindu Deity, Lord Hanuman, the God of strength and energy, who is often believed to be a reincarnation of Lord Shiva. Constructed in 1950 by the extremely revered Neem Karoli Baba, the temple’s centrepiece is a massive statue of Lord Hanuman with an image of Lord Rama in his chest cavity. As per Hindu mythology, Lord Hanuman was an ardent follower and the most trusted friend of Lord Rama, and he also helped Lord Rama to win over Ravana. The temple is especially busy on Tuesday and Saturday as these two days of the week are dedicated to Lord Hanuman."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

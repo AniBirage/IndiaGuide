@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity151">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Radisson Gwalior"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radissongwalior" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Located in the center of Gwalior’s corporate district, Radisson Gwalior provides a perfect home base for business and leisure travelers. Make your visit memorable when you tour the temples and palaces at Gwalior Fort, less than seven kilometers from the hotel, or take the three-kilometer drive to the DB Mall to shop. If you’re in town for meetings in Malanpur, you’ll find businesses like SBI and HDFC Bank nearby and the city’s industrial hub about 25 kilometers from the hotel. We are 25 minutes from Gawlior Airport (GWL) and 10 minutes from the railway station. After a day of meetings, sightseeing, or shopping, return to the hotel to enjoy a delicious meal in one of our restaurants or order room service. You can relax by the rooftop swimming pool and recharge with a workout in our fitness center. We offer free Wi-Fi throughout the hotel and transfers to the railway station and airport."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Taj Usha Kiran Palace, Gwalior"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tajushakirangwalior" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Indian History has always been regaled with stories of royalty, yet few have ever been as opulent or gracious as Usha Kiran Palace, a historical property of the Taj Hotels in India. Located on a lush 36,421 sq. mtr landscaped estate in Gwalior, beside Jai Vilas Palace, this white-and-yellow palace was built in 1880 by H H Maharaj Jayaji Rao Scindia (Scindia Dynasty of the Marathas) and since then has hosted royalty and dignitaries on myriad occasions. True to the aesthetic spirit of Gwalior, exquisite craftsmanship is the hallmark of the palace. Every nook and corner flaunts a tapestry of ancient stone carvings and delicate filigree work that tell a story. The lavish interiors of our palace hotel in Gwalior have their own share of treasures. The Royal Suites evoke Gwalior's royal heritage with period furnishings and ornate accessories such as Venetian mirrors, mother-of-pearl mosaics and canopied beds. The Luxury Villas offer privacy and exclusivity with a private pool and a sun bathing area. The indulgence extends itself to the ancient healing and wellness therapies of the famous Jiva Spa, which also offers royal treatments that originated at the 14th century spa in the magnificent Man Mandir Palace, Gwalior Fort. History is an ingredient that is all pervasive in Usha Kiran Palace and finds favour even in its culinary flavours. Savour closely guarded recipes from the Maratha and Nepal royal kitchens accompanied by classical music from the Gwalior Gharana at Silver Saloon, the multi-cuisine restaurant. Dine under the sky at the palm-shaded The Court’s. The majestic meets the modern with contemporary amenities and technologies readily available for any meeting, event, exhibition, wedding or other social occasion. Designed to exceed expectations, professional service with a personal touch brings out the very best in every occasion, whether business or pleasure. Experience the best of Taj hospitality at our 5 star hotel in Gwalior!"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Park Inn by Radisson, Gwalior"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parkinngwalior"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Experience a stress-free stay at the upper midscale Park Inn by Radisson Gwalior, which is located next to both Gwalior Railway Station and Gwalior Bus Stand. You can easily visit area businesses and explore top attractions like Gwalior Fort, Jai Vilas Palace, and DB Mall. Visit exotic animals on a day trip to Madhav National Park, or stay closer to the hotel with a tour of Gwalior Zoo. After a day of admiring the architecture of Sanischara Temple and the masterful works at the Tansen Art Gallery &amp; Museum, return to the hotel for an artistic, globally inspired meal from RBG, our on-site restaurant. Free Wi-Fi throughout the property keeps both business and leisure travelers connected to the most important people in their lives. You can stay active by working out in our fitness center and take advantage of our restaurant’s culinary expertise with convenient 24-hour room service. If you have any questions day or night, our front desk is open 24 hours as well."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

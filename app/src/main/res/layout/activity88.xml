@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity88">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Welcomhotel by ITC Hotel"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/welcomhotelvado" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Offering a year-round outdoor pool, Welcomhotel by ITC Hotels, Alkapuri, Vadodara is set in Vadodara in the Gujarat Region. The hotel has a terrace and views of the pool. Free private parking is available on site. The hotel has 133 rooms including 6 suites and every room is fitted with a flat-screen TV. Seating area for your convenience. You will find a kettle in the room. Each room comes with a private bathroom. For your comfort, you will find bathrobes, slippers and free toiletries. Guests can enjoy a meal at the on-site Indian restaurant Peshawri or at WelcomCafe Cambay, a 24-hour multi cuisine restaurant. There is a 24-hour front desk, a business centre and gift shop at the property. Car hire is available at this hotel and the City is popular for Golfing. Vadodara Airport is 5 km from the property while the railway station is 1.5 km away."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Four points by Sheraton Hotel"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fourpointsvado" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Located in the heart of Vadodara City, Four Points by Sheraton Vadodara is a short 5-minute walk from Seven Seas Mall. Offering modern rooms with free Wi-Fi, it houses a gym and a restaurant. Fitted with wooden flooring, air-conditioned rooms are equipped with a flat-screen TV and a private bathroom. In addition to a minibar, tea/coffee making facilities and a personal safe are included. DVD players and ironing facilities are available on request. Four Points by Sheraton Vadodara is a 15-minute drive from Vadodara Airport and about 2 km from Vadodara Railway Station. Rasa serves a variety of local and international dishes. It offers an á la carte menu alongside buffet spreads for breakfast and dinner. In-room dining is possible. The 24-hour front desk offers laundry and luggage storage services."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hotel Pearl"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotelpearl"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Set in Vadodara 500 Meters from Vadodara Railway Station and Central Bus Depot and within 3.1 km of Laxmi Vilas Palace, Hotel Pearl has a shared lounge, rooms, and free WiFi. All rooms boast a flat-screen TV with cable channels and a private bathroom. The property offers a 24-hour front desk. At the hotel, rooms are fitted with a desk. All rooms at Hotel Pearl feature air conditioning and a wardrobe. A vegetarian breakfast is served every morning at the property."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity225">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Maha Shiva Adiyogi Statue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mahashiva" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Settled amid the lush green forest side of Velliangiri Mountains, Adiyogi Shiva is the world’s biggest bust statue, carved out of 500 tonnes of steel. The statue is a part of the popular Isha Yoga Centre and stands at a height of 112 feet. The purpose behind this standing statue is to promote the culture of yoga and meditation. Since Lord Shiva is the Adiyogi or the first teacher of yoga, He is the symbol of promoting this beautiful ancient art. The figure is shiny black in colour and exhibits moksha theme in yogic culture. However, anyone and everyone is invited to the centre to practice the art and better themselves. The base of the statue also leads up to the shrine and meditation centre. The place is always full of tourists and practitioners all through the year. No wonder this Statue is the one of the top tourist attractions in Coimbatore."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Maruthamalai Arulmigu Subramanya Swami Temple"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/maruthamalai" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Located at an elevation of about 500 ft on the Western Ghat, Marudhamalai Temple is set atop a hill that offers picturesque views of the hillside. Marudhamalai Temple is known for its high vibrations and revitalizing atmosphere. That’s not it, the Dravidian-architecture of the Temple is completely awe-inspiring. At the first look, it seems like the edifice is touching the sky, literally! Lord Murugan or Kartikeya is the main deity of worship in the Temple as the devotees from all over the world pay a visit to the Temple in hopes of getting the pure blessings of the Lord. Another highlight of this temple is that it grows medicinal herbs which are used for making Ayurvedic medicines."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="GD Naidu Museum"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gdnaidu"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="One of the top places to visit in Coimbatore for car and bike lovers, Gedee Car Museum is an amalgamation of vintage and new cars that are transported to the Museum all the way from countries like US, England, Germany, and France. For the better understanding of people, these cars are exhibited along with important information related to them. Each model has a sign board or chart that tells the whereabouts of the concerned car. Along with an impressive international collection, the Museum is also home to some antique Indian cars as well. If you are an automobile engineer or simply a motorhead, you are going to have an absolute gala time here."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

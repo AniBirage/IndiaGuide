@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity119">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Radisson Blu"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radissonranchi" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Featuring an outdoor swimming pool, fitness centre and spa and wellness centre, Radisson Blu Hotel Ranchi offers 4 dining options. It is located 3 km from the pristine Ranchi Lake. Free Wi-Fi is available throughout the property. The Ranchi Junction Railway Station is located 1 km from Radisson Blu Hotel. The major Hatia Railway Station and Birsa Munda Airport are within 5 km. The Doranda Jain Temple and the beautiful Tagore Hill are also 5 km. The Jagannathpur Temple and Pahari Temple are within 15 km. Air-conditioned rooms come with a minibar, electric kettle and flat-screen satellite TV. A desk, sofa and safety deposit boxes are also provided. The attached bathroom includes shower and free toiletries. The staffs at 24-hour front desk are happy to help the guests with packed lunches, laundry and currency exchange. A business centre and meeting space are available. Guests can make use of the tour desk to make travel arrangements. A car can be rented for sightseeing."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Le Lac Sarovar Portico"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lelac" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="This hotel is situated in Ranchi – the City of Waterfalls, a 5-minute walk from Ranchi Market and 250 m from Firayalal Chowk. It houses 3 dining options, a salon and a fitness centre. Hotel Le Lac (Ranchi) is 4 km from Ranchi Railway Station and 7 km from Ranchi Airport. It is 30 km from Dasam, Hundra and Johna Waterfalls. Air-conditioned rooms feature a flat-screen TV with satellite channels, a wardrobe and a seating area. The en suite bathroom comes with hot and cold water supply. Guests can dine at Flavours – a fine dining restaurant serving Indian and international delights. Alternatively, they can have a cocktail or mocktail at Chill bar."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pinnacle"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pinnacle"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Featuring a massage parlour and offering one way free airport shuttle, Hotel The Pinnacle is 100 m from Jaipal Singh Stadium and 2.5 km from Local Bus Station. Free Wi-Fi is available throughout the property. Hotel The Pinnacle is 4 km from Rock Garden and Ranchi Railway Station. The Birsa Munda Airport is 8 km away from the property. The air-conditioned room comes with a heater, seating area and flat-screen cable TV. The private bathroom includes hairdryer and shower. The property operates a 24-hour front desk to help guests with breakfast buffet, newspaper and currency exchange. A business centre and meeting space is available. To organise day trips or hire a car guests can approach tour desk."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

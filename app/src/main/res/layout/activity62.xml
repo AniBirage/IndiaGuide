@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity62">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ghatarani Waterfalls"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ghataraniwaterfall" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Located 85 km from the city of Raipur is Ghatarani Waterfalls, the largest in the state of Chattisgarh. Surrounded by lush greenery, this breathtaking sight is a popular picnic spot. Ghatarani Waterfalls is a favourite picnic spot to go to on the weekend along with your friends and family. A small trek through a forest would lead you to this beautiful natural beauty. At the bottom of the waterfall lies a naturally formed pool. Enjoy a swim, play with your fam, or unwind in the pool. Although the waterfall's beauty enriches in the rainy season – when the water is in full flow – it is best to avoid going during this time because of slippery terrains and mudslides."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nandan Van Zoo &amp; Safari"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nandan" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Nandan Van Zoo, located at Naya Raipur, is one of the famous places of visit in the city. With its primary objective to protect and conserve animals, the zoo has many species of fauna. There are jungle safari and boating rides and is a perfect spot to spend the day with kids. It is fascinating to watch the animals wander around the jungle, and it also gives an exposure to many species which are not very popular and on the verge of extinction. Also, the facilities provided by the zoo are comfortable and affordable."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Purkhauti Muktangan"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phmukt"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Keep your gadgets away and spend a day at Purkhauti Muktangan, a delightful garden reflecting the rich culture of Chhattisgarh. The Hon’ble A.P.J Abdul Kalam inaugurated the place in November 2006. Since then, this garden is a place that attracts tourists and locals alike. Folk art, life-like tribal figures, vibrant sceneries add on to the beautiful experience. Not only is the garden eye-catching to visitors, but it also spreads cultural awareness about preserving our bio-cultural diversity."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

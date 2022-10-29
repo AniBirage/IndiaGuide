@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity138">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Restaurants"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Keraleeyam Calicut"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/keraleeyam" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The menu of Indian and Italian cuisines is to the pleasure of all visitors here. Tasty biryani can make a profound impression on you. There is a great view from this restaurant. A number of guests note that the staff is competent at Keraleeyam at Raviz Kadavu. Spectacular service is something clients like here. Numerous visitors claim that prices are affordable. It's usually a good idea to experience something new and enjoy the calm ambiance."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hotel Paragon Restaurant"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotelparagon" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="With an enviable culinary heritage dating back to more than seven decades the Paragon Group has set new benchmarks in the restaurant industry. The flagship Paragon restaurant is a true icon of Calicut. The journey began in 1939 under the visionary leadership of Govindan Panhikeyil along with his son P.M Valsan who opened the first Paragon restaurant in Calicut, Kerala, India. After initially offering a fusion of the Malabar region's Moplah and Thiyya Cuisines, the master chefs at Paragon have ceaselessly innovated to transform the cuisine over the years. The restaurants reflect the influences from different parts of the world while retaining their traditional roots. They today enjoy cult status in Calicut and Dubai, becoming a part of countless stories, memories and celebrations among our legion of patrons."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hotel Rahmath"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotelrahmath"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The convenient location of Rahmath makes it easy to reach even in rush hours. Imagine a combination of tasty food and the energetic staff, this is exactly what this place offers. The fabulous service is something these restaurateurs care about. A number of visitors point out that prices are attractive for what you receive. This spot with the enjoyable ambiance can be a good dining place on your route. Clients enjoy the sights of S. M. Street and book a table for good meals here. Indian cuisine under the direction of the great chef is gorgeous at this place. This restaurant provides perfectly cooked gat, chicken biryani and roast beef. Great lime juice, tea or fresh juices are among the best drinks to order."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

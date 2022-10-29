@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity281">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Elgin, Darjeeling- Since 1887"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theelgin" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Over 125 years old and once the summer residence of the Maharaja (King) of Cooch Behar, The Elgin Darjeeling is now a luxury Heritage Hotel in Darjeeling. This spa hotel in Darjeeling is situated in the heart of the Darjeeling town, 6,000 feet up in the Himalayas. A celebration of the elegance and grace of the Colonial Era in the Queen of Hill Stations, located in the majestic Himalayan ranges, The Elgin Hotels &amp; Resorts in Darjeeling is very much a part of Darjeeling’s colonial history."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MAYFAIR Darjeeling"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mayfairdarj" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Once, the summer retreat of the Maharaja of Nazargunj, Mayfair Darjeeling stands tall as one of Darjeeling's most charming, heritage hotels with a magnificent view of the valley below and the mountain ranges in the distance. Crisp mountain air and beautiful views of the Himalayas meet the eye of a resident in this heritage hill resort. Mayfair Darjeeling offers best hospitality and facilities to guests while making sure they do not miss out on the vintage charm that Darjeeling has to offer. A pleasant walk to the Mall Road and Chowrasta, the Zoo, the Mountaineering Institute and tea gardens, Mayfair Darjeeling will surely have multiple reasons to keep you coming back to stay with us."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sterling Darjeeling"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sterlingdarj"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Sterling Darjeeling, located at the highest point in Darjeeling, offers you a spectacular view of the Kanchenjunga range. Darjeeling district's oldest monastery, the Ghoom Monastery is right next to the resort. Enjoy the nippy morning air, an aromatic steaming cup of Darjeeling tea and the regal Kanchenjunga at our resort. The resort is situated in the charming neighbourhood of Ghoom Heritage Railway Station, the highest Railway Station in India (7,407 feet), which provides the convenience of hopping onto the toy train when you wish. Go on a Tea Trail, that takes you from plucking the tea leaves to tasting the world famous Darjeeling Tea. Sterling Darjeeling comes with 101 well-appointed rooms. At the Holiday Activity Centre, guests can play table tennis, carrom, board games and video games. Themed Nights and Amphitheatre are also available on request."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

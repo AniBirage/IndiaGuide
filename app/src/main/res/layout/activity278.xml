@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity278">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="JW Marriott Hotel Kolkata"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jwmarriottkol" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Experience the resplendent JW Marriott Hotel Kolkata, a 5-star accommodation with understated elegance and sophistication. Located 16 kilometers from Netaji Subhash Chandra Bose Airport, our hotel is almost equidistant from the airport and the city's old business district. Well-appointed rooms and suites are spacious and offer premium amenities. Four distinctive dining options include an inspired Asian restaurant and an edgy discotheque offering vibrant nightlife. The holistic Spa by JW offers a host of therapies to help you relax. Renowned JW personalized service, coupled with one of the largest ballrooms in the city, make our hotel an ideal destination for weddings, corporate and social events. Expansive indoor and intimate outdoor event space includes a distinctive boardroom with modern facilities, five lavish studios and an elegant bridal room that offers the perfect place to don bridal finery. Intuitive service and luxurious surroundings ensure a memorable stay at JW Marriott Hotel Kolkata in India."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hyatt Regency Kolkata"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hyattkol" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Experience luxury at Hyatt Regency Kolkata, one of the finest 5 star business hotels in Salt Lake, Kolkata (Calcutta). This Kolkata hotel is just 15 minutes' drive from the Kolkata Int'l airport and IT corridor of Kolkata. The location of the hotel makes it the most convenient hotel for business &amp; leisure travelers."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ITC Royal Bengal, a Luxury Collection Hotel, Kolkata"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/itcroyalbengal"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Located on the cusp of business district &amp; the city, ITC Royal Bengal is an ode to the region’s cultural heritage and lineage. It offers 456 rooms &amp; suites, 82 service apartments, 5 dining destinations, 5,630 sqm of banqueting space &amp; a luxury spa. This monumental, magnificent edifice towers over Kolkata’s skyline and blends fine European and indigenous architecture with contemporary design. Envisioned and created with royalty in mind – the luxury of immense space, the burnished gleam of aristocratic décor and the hushed elegance of a noble home, the hotel celebrates the finest expressions of Bengal.ITC Royal Bengal will be operational as per administrative and Government guidelines. In response to the current circumstances surrounding the COVID-19 pandemic some hotel services like (not limited to) swimming pool, spa services, restaurant seating capacity, operational hours of select restaurants, banqueting capacity, visitor policy may be curtailed."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

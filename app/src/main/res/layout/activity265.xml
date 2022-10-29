@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity265">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Har Ki Pauri Ghat, Haridwar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/harkipauri" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="One of the Tourist places in Haridwar is Har ki Pauri which basically means footsteps of the Lord. It is the holy ghat where river Ganges touches the plains after winding its ways through the Himalayan ranges. Visitors flock along this pious ghat around dawn to take a holy dip. during the Ganga Aarati. It is mesmerizing to watch the whole ghat getting illuminated by the shimmering lights of the three-tiered lamps of fire in the hands of the priests . Additionally, devotees float thousands of diyas on the surface of the water giving the river Ganges an ethereal aura of beauty. A prime attraction during the day time is a footprint imprinted on a wall which is believed to belong to Lord Vishnu."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shantikunj Gayatri Parivar"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shantakunj" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Relish a realm of spirituality and wellness at ShantiKunj when you are in Haridwar. It is known as the headquarters of All World Gayatri Power and attracts dozens of pilgrims. It is said that the ashram guides you towards the right path and offers perpetual happiness. Taking inspiration from spiritual principles, Shanti Kunj is a pioneer in the revival of Rishi traditions and divine culture. When you are here, you can participate in one of the training camps and take home wonderful memories of moral and spiritual upliftment. Some of the prominent attractions of Shanti Kunj are the Yagya shala, Gayatri Mata temple, Akhand Deep, Devatma Himalaya temple and various other temples dedicated to ancient rishis. If you are interested to know more, do go through one of the exhibitions at the world-famous ashram on Divine culture. You will not return disappointed after returning from Shanti Kunj."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shri Mata Mansa Devi Mandir"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mansadevitemple"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Mansa Devi Temple, also known as Bilwa Tirth, is one of the Panch Tirth (Five Pilgrimages) is within Haridwar. It is a Tourist attraction in Haridwar which is a Hindu temple dedicated to Mansa Devi, goddess of Snake. The temple is located at the top of Biswas Parvat on the Shivalik Hills which is a part of the southernmost range of Himalaya. Visitors can reach the temple either by 3km steep trek or by cable car which is also known as Mansa Devi Udankhatola."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Maa Chandi Devi Temple, Haridwar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/maachandi"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="One of the shaktipeeth at the top of Neel Parvat is Chandi Devi Temple, dedicated to Chandika Devi, who was born out of the energy of Devi Durga to kill the demon king's Shumbha-Nishumbha. Worshippers visiting this place can opt for a 3km adventurous trek to the hilltop while experiencing beautiful sights punctuated by monkeys around the place. The other, more comfortable, way of traveling is by the Udankhatola, the ropeway service. Few worshippers can also take trolley service which plies along the way. There is a pond beside the temple which has medicinal values for which it attracts the visitors who take a dip. There are several vendors around the temple selling Prasad, Diya, agarbatti, etc for those who want to offer puja."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Daksheshwar Mahadev Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/daksheshwarmaha"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Daksha Mahadev Temple, which is also known as Daksheshwar Mahadev Temple, is one of the oldest temples Located in Kankhal in Haridwar and is one of the Places to see in Haridwar. Dedicated to Lord Shiva and Goddess Sati, the temple was named after Goddess Swati’s father, King  Daksha Prajapati. The temple houses a Yajna Kund and also has a thousand-year-old Banyan tree. The Daksha ghat on the left of the main temple allows devotees to take a dip in the holy Ganga River. The temple becomes exceptionally beautiful with elaborate decorations during the Maha Shivaratri."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bharat Mata Temple, Haridwar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bharatmata"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Among all the famous shrines and temples that make Haridwar a hub for those seeking God, Bharat Mata Mandir is the most unique one. What makes this temple so special is that the country, India, is worshipped here as a goddess. The temple complex is eight-storeyed and is located near the river Ganges. The architecture of the temple is quite different from any other temple you will see in Haridwar. The temple was inaugurated in 1983 by Late Mrs Indira Gandhi. Apart from being a place of worship, the complex also houses an allopathic dispensary, diagnostic camps, cow shelter, an old age home, and a ved shala. Undoubtedly, Bharat Mata Mandir is among the interesting places to visit in Haridwar."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Maya Devi Temple, Haridwar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xyz"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="One of the Places to visit in Haridwar is Maya Devi Temple which is dedicated to Goddess Maya Devi, who is the incarnation of Goddess Shakti. One of the Shakti Peethas of Haridwar, the temple is believed to have been built over the place where the heart and navel of Sati had fallen as per mythology. The temple premises have the idols of Goddess Maya, Goddess Kamakhya and Goddess kali. Apart from being a holy place of worship, the temple is well known for its ancient architectural beauty. The temple is known for its elaborate decoration and celebration during the festivals of Navaratri &amp; also during Kumbh Mela."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

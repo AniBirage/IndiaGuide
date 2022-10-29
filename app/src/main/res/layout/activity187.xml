@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity187">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Golden Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/goldentemple" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="The Golden Temple Amritsar India (Sri Harimandir Sahib Amritsar) is not only a central religious place of the Sikhs, but also a symbol of human brotherhood and equality. Everybody, irrespective of cast, creed or race can seek spiritual solace and religious fulfilment without any hindrance. It also represents the distinct identity, glory and heritage of the Sikhs. To pen-down the philosophy, ideology, the inner and outer beauty, as well as the historical legacy of Sri Harmandir Sahib is a momentous task. It is a matter of experience rather than a of description. As advised by Sri Guru Amar Dass Ji (3rd Sikh Guru), Sri Guru Ram Dass Ji (4th Sikh Guru) started the digging of Amrit Sarovar (Holy Tank) of Sri Harmandir Sahib in 1577 A.D., which was later on brick-lined by Sri Guru Arjan Dev Ji (5th Sikh Guru) on December 15, 1588 and He also started the construction of Sri Harmandir Sahib. Sri Guru Granth Sahib (scripture of the Sikhs), after its compilation, was first installed at Sri Harmandir Sahib on August 16, 1604 A.D. A devout Sikh, Baba Budha Ji was appointed its first Head Priest. The Golden Temple Amritsar India (Sri Harmandir Sahib Amritsar) has a unique Sikh architecture. Built at a level lower than the surrounding land level, The Gurudwara teaches the lesson of egalitarianism and humility. The four entrances of this holy shrine from all four directions, signify that people belonging to every walk of life are equally welcome."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jallianwala Bagh"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jallianwala" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="A historic garden and a memorial, Jallianwala Bagh is one of the highly visited tourist places in Amritsar.  It was built in the memory of those people who died on 13th April 1919 in the bagh. The 7-acre garden complex is located near the Golden Temple and is visited by many tourists from all corners of the globe. Among the various structures, well is very popular and important. It is said that during the shooting, many people jumped inside the well to save their lives."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Wagah Border"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wagahborder"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Wagah Border or Wagah-Attari border is the last Indian area before the Pakistan mainland. It hosts a ceremony where the soldiers of India’s Border Security Force and Pakistan’s Pakistan Rangers march and parade making it among the top tourist attractions in Amritsar. The area is filled with people on both sides celebrating the patriotic vibe."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

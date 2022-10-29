@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity139">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Raviz Kadavu"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theravizkadavu" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="A short drive away from Calicut city, The Raviz Kadavu is nestled on the banks of the legendary Chaliyar River. Inspired by the Nallukettu style of architecture, the 9-acre spread of The Raviz Kadavu celebrates the art and ethnicity of Kerala. The property is the ultimate detox for weekend revelers looking for scenic locales. In keeping with our style of marrying the authentic with modern, you will be treated to an experience that celebrates comfort the Indian way. Celebrating the heritage of Kerala in every way, The Raviz Kadavu is poised to become the destination of choice for any event organizer seeking a space that marries the excitement of open adaptable spaces with defined venues. The Raviz Kadavu has been styled on the Nallukettu tradition of homes and the 9-acre sprawling land has been carefully landscaped using indigenous plant varietals. In fact, almost 90% of the construction material on the property is laterite stone that has been culled out from the land itself. With myriad options of cottages and rooms both, you will be spoilt for choice at our property. The mural art that dots every corner and wall of the resort brings alive the mystical culture of the state."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Gateway Hotel Calicut"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/thegatewayhotelkozhi" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Welcome to The Gateway Hotel Beach Road Calicut. Close to the city’s commercial hub and not too far from the local sights and sounds; The Gateway Hotel Calicut is one of the best 5 star hotel in Calicut to relax and inject some fun into your business trip. You can count on our efficient staff to plan an itinerary around the local attractions like the spice market, pristine beaches and quaint alleyways that add to the charm of the coastal city of Calicut. What's more; our round-the-clock service ensures your visit to Calicut is productive and fun at the same time."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hotel Copper Folia"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/copperfolia"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Experience comfort in the lap of luxury at hotel Copper Folia, a full service 4 star hotel which redefines the concepts of warm hospitality &amp; understated luxury. A unit of PTS Hotels India Pvt. Ltd., the hotel offers 27 well appointed, spacious rooms with all possible amenities for the discerning business or leisure travellers coming to Kozhikode. Hotel Copper Folia is the only 4-star business hotel in Calicut town in the midst of the hustle bustle of a mushrooming township yet surrounded by calmness and serenity of green environs in the background. Ideally located at Thondayad Bypass, our location is in close proximity to the upcoming Calicut Cyber Park, Hi Lite City, Govt. Medical College, Apollo Cradle Hospital, Metro International Cardiac Centre and other commercial properties. Step in to luxury as you enter the elegant lobby and you'll be greeted by a warm ambience. At first glance, the hotel with its well-planned floor plan layout &amp; proper allocation of the amenities is a superb blend of contemporary and classy design aesthetics that sets in the feel of a ravishing metro city. Attention for detail has been given vital importance in the architecture and ambience - design and development consistently striving to stand a class apart surpassing all the standards and conventions in the hotel and hospitality industry. Our guests are our top priority! Right from a seamless check-in to an efficient check-out, the entire experience is marked by a complete focus on service-driven hospitality. Distinct and utmost care has also been given to facilitate ease and comfort to the specially challenged guests without causing any hindrance to their specific needs. We consistently strive to provide world class services and exceed expectations by ensuring total customer satisfaction, setting a benchmark and a brand value in the hospitality and tourism industry. Our consistency in providing quality clean and sterile rooms, amenities and exemplary guest services to our guests makes them our patron for life."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

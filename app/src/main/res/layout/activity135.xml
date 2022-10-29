@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity135">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Restaurants"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="O Cafe"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ocafe" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="O Café is an unparalleled all-day dining experience. The glass roof creates an Al Fresco experience under an open sky. The restaurant is open all day for Breakfast, Lunch and Dinner, O Café offers diverse cuisines from around the globe, guaranteed to satisfy all and any cravings. The restaurant offers live cooking counters, sinfully-curated buffets and a beverage kiosk for the perfect accompaniment to mouth-watering food. Seating areas overlook the swimming pool and the adjoining landscaped deck, providing a tranquil and peaceful dining experience at any time of the day."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Garden Grille Restaurant"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gardengrillethiru" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="This restaurant is famous for its great service and friendly staff, that is always ready to help you. Also, guests recommend Garden Grille because of attractive prices. The homey decor and spectacular ambiance let clients feel relaxed here. Enjoy Kerala Government Secretariat by default, the clients' recommendation is to come to this restaurant as well. Dishes of Indian and Italian cuisines can be ordered at Garden Grille. At this place, try tasty cheese salads, chicken chops and mushroom pizza. Taste good coconut cakes, caramel apples and honey cakes. You will appreciate delicious Mai tai, wheat beer or whiskey sour at this spot. Degust great fruit juice, banana milkshakes or mint lemonade."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Villa Maya"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/villamayathiru"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Live music is performed by musicians in the evening. The friendly staff at this place can demonstrate how much they like their customers. The fabulous service is something these restaurateurs care about. This spot offers you attractive prices for yummy meals. The divine decor and quiet ambiance let clients feel relaxed here. Come here for a drink after a long walk around Kuthiramalika Palace Museum. Among other Indian and Italian cuisune places to eat at, this restaurant can be one of the best. Being at Villa Maya, order perfectly cooked coconut soup, paneer and broth. Do not leave without enjoying good kulfi, chocolate fudge and chocolate cakes. A selection of delicious cordial, wine or beer is provided to visitors. Visit this place and have great chocolate frappe, tea or fresh juices."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity255">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kashi Vishwanath Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kashi" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="One of the oldest, richest, and holiest shrines of India is located in the sacred city of Varanasi and is known as Shri Kashi Vishwanath Temple. Named Kashi, due to the ancient name of Varanasi, the glorious temple commemorates the mighty Lord Shiva and is a part of the 12 Jyotirlingas. Thousands of devotees travel from miles away to witness its soothing spiritual ambiance and seek blessings from their god. Sun glistens on the towering spires and domes made out of pure gold. As you walk through the gates, you can hear the soft rushing sounds of river Ganges nearby. Miniature shrines of various Hindu deities encircle the main hall of Sabha Griha. And at the heart of this hall, standing on a silver platform is the magnificent brown stoned effigy of Lord Shiva. Having braved the ravages of cultural wars, this temple has been demolished and reconstructed many times. Hence, this temple is not only an eminent pilgrimage site but also a prominent historical landmark."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dashashwamedh Ghat"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dashash" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Dashashwamedh Ghat is known for conducting the liveliest aartis along the holy river Ganga to immerse the visitors into divine bliss. A prominent member of the tourist attractions in Varanasi, Dashashwamedh Ghat, got its name due to the legend of Lord Brahma sacrificing 10 horses, or das Ashwamedh, in order to perform a yajna. Every sunset, the ghat gets illuminated by the light of diyas lit to commence the sacred rituals. Priests gather and chant prayers in unison as they move the diyas in circles and pay their obeisance to the god. A huge crowd gathers to participate in this ceremony. The refreshing aura that sets in during the evening witnesses hundreds of tourists thronging the ghat to relax on the steps leading to the river waters. You can also spot many boats floating in the river. Due to the divine ambiance and religious significance, it is a must amongst the places to visit in Varanasi in 2 days."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Assi Ghat"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/assighat"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Another name amongst the unmissable places to visit in Varanasi is Assi Ghat. Frequented by collegegoers and tourists alike, this ghat offers a peaceful escape from the hustle and bustle of Varanasi's chaotic lanes. Pilgrims bathe in the holy waters of River Assi and offer flowers to the Shivlinga before resting on the steps of the ghat. Ancient texts claim it to be the place where the revered saint and poet, Tulsidas, retired before his death. You can relax under the shade of peepal trees lining the shore, or take a boat ride to witness the panoramic sunsets. Every day, at the break of the dawn, the ghat is crowded by devotees chanting prayers as the priests light the diyas and perform the ceremonial aarti."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Manikarnika Ghat-Manikarnika"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/manikarnika"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Many legends surround the etymology behind Manikarnika Ghat, the oldest riverfront and one of the most religious tourist attractions in Varanasi. Mentioned in many ancient scriptures and religious texts, Manikarnika ghat is said to be the place where Devi Sati set herself on fire and also the birthplace of the fearless queen of Jhansi, Rani Lakshmibai. Temples of many Hindu deities surround its periphery while the holy waters of river Ganga flow peacefully alongside. Giving a peek into the traditional life of Varanasi, this place is visited every year by thousands of pilgrims performing the last rites of their departed loved ones. A holy well, believed to be dug by Lord Shiva to recover the fallen earring of Goddess Sati, is present at the top of the stairs."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chunar Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chunarfort"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This is a small fort located on the little diversion between Varanasi and Prayagraj, and it has played a significant role in shaping the history of India. The fort is situated on the banks of river Ganga and is also called Tilismi Quila or Magical Fort because it was featured in the novel “Chandrakanta”. Some of the most popular movies, like Gangs of wasseypur were also shot here. The Fort has witnessed the reign of several dynasties such as the Mauryans, Gupta dynasty of the Mughals, etc. Chunar Fort is also known for stone trading as it is located in Kaimur Hills, which is the only place in this region that is known to produce good quality stones."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ramnagar Fort &amp; Museum"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ramnagarfort"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Resting near the quiet shores of River Ganges is the majestic historical monument of Ramnagar Fort. Chunar sandstone forms the foundation of this creamy colored structure, which was built as the residential fort of Raja Balwant Singh. Even today, it houses the present Maharaja of Varanasi, whose residential quarters are separated from the rest of the fort. Two temples worshipping Lord Hanuman and Veda Vyasa are present inside the complex. Verdant gardens, fountains, elaborate halls, carved balconies, and decorated courtyards mark the beautiful features of its Mughal architecture. The Durbar Hall was converted into a museum which is now known as Saraswati Bhawan. The museum houses an intriguing collection like an armory, vintage cars, royal palanquins, and multicolored murals of Maharajas. Situated opposite the Tulsi Ghat, Ramnagar Fort is one of the best places to visit in Varanasi and can be accessed by pontoons."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

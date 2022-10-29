@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity227">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Welcomhotel By ITC Hotels, Race Course, Coimbatore"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/welcomhotelcoim" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Located in the heart of Kovai city, surrounded by the picturesque Western Ghats, reserve forests of Nilgiri Biosphere &amp; Noyaal River, Welcomhotel Coimbatore draws inspiration from the glorious elements of the city in its design, state-of-the-art amenities &amp; experiences."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vivanta Coimbatore"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vivantacoim" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Located on upscale Race Course Road, just 11 kms from the international airport, Vivanta Coimbatore is a contemporary 5 star hotel in Coimbatore with world-class amenities, the ideal base for business travellers in Tamil Nadu’s second largest city and entrepreneurial powerhouse. The hotel’s minimalist, new-wave design echoes Coimbatore’s majestic heritage, radiating with the warmth of the sun. The lobby is an understated showstopper, featuring a glass ‘teardrops’ chandelier looking over a tranquil oval-shaped water body, sun rays recreated on the burnt sienna and white marble flooring, and onyx walls that gently reflect sunlight. 178 urbane rooms and suites with eclectic decor, modern art and courteous, impeccable service fit in perfectly with the lifestyle of the modern jet-setter. The hotel’s cuisine is top-notch with Red Pearl, one of the city’s best Chinese restaurants; our all-day diner Latitude serving multi-cuisine buffets – starring local legends like the unique Ramasseri Idli. The city’s elite spend their evenings at our high-octane lounge bar Tease where the glamour, energy and exquisite spirits reflect Coimbatore’s cosmopolitan character. Our banqueting facilities are the most impressive in the city, from all-equipped meetings rooms for 10 people to a magnificent lawn for a wedding reception for 600 guests. There is plenty to do at the hotel when you aren’t busy working or entertaining. Connect with our Concierge service to get the lowdown on Coimbatore’s top secrets, including local shopping haunts, guided city tours, spiritual retreats and world-class specialty medical facilities. Steal some precious time with your spouse for a romantic candle-light dinner by the poolside, workout at our 24/7 state-of-the-art Fitness Centre or book an indulgent beauty/wellness treatment at the award-winning Jiva Spa. From your professional to recreational needs, from the smallest details to the big picture; we have at all covered at Vivanta Coimbatore."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Residency Towers, Coimbatore"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theresidencycoim"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Nestled in the heart of the city, The Residency Towers, a 5-star hotel in Coimbatore, is the epitome of brilliance and splendour. With fully air-conditioned rooms suitable for corporate and leisure travellers, dining outlets and wellness offerings, our hotel proffers the best South Indian hospitality experience. A heartfelt service promised to your doorstep, The Residency Towers never shies away from aiding you to an indelible stay! Celebrated for its strategic location, our hotel is in close proximity to the city’s international airport and railway station. It is 3.3 km from Coimbatore Main Junction and 8.3 km from the airfield. Apart from major travel hubs, the hotel is located close to one of the most popular shopping complexes in the city - Brookefields, at a distance of 4.3 km. Commuting from the hotel is never an issue, guests are always greeted with frequently operating public vehicles."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

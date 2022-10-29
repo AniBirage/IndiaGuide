@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity277">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Restaurants"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Waterside Cafe"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/watersidecafekol" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="As the name already gives away, this lavish restaurant in Kolkata is located right next to a grand lawn and pool setting of Hyatt Regency. The best part – it’s a 24-hour dining arena with a huge range of cuisines that make diners go gaga! The tall glass walls overlooking the beautiful lawn and pool, the old-worldly stone-clad walls, and a fab arrangement of ornamental plants create a calming, sensuous aura that never fails to attract lovebirds to this place. Some of the signature dishes served at this private couple restaurant in Kolkata include Aloo Aminabadi, Bati Chingri, Mutton Rogan Josh, Murgir Jhol, Bengali Style Fish Curry, Brownies, Waffles, and Coffee. The restaurant also has a distinct all-day dining menu serving a wide range of salads, soups, sandwiches, burgers, and mouth-watering main course items."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dum Pukht"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dumpukht" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Serving the most amazing Awadhi and Afghani cuisine in the city, Dum Pukht is among the favourite dining spot of all foodie couples who have assigned it a prestigious position in the list of the best romantic restaurants in Kolkata. Offering a range of spicy and savoury dishes that simply melt in your mouth, the food here is prepared by the best of chefs who know how to please your taste buds. Some of the best dishes served here include Murgh Khush Purdah, Dum Pukht Kakori Kebabs, Murgh Handi Qorma, Shahi Tukda, Khamiri Roti, and more. Indulge in a lavish dinner date amid the perfect ambiance of this grand diner and you’re sure to remember the experience for the rest of your lives!"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Smoke Shack"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/smokeshack"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Spanning over an area of over 8,000 ft square, this multi award winning restaurant is unique in terms of the environment, services, and food. Couples have the option to indulge in a private candle light dinner in Kolkata at this upscale shack’s poolside, bar, or the unbeatably lavish rooftop setting overlooking the gorgeous Hotel Park Plaza. Indulge in unforgettable dining experience with the finest cuisine and choicest of drinks under an ambiance crafted for lovers! Offering signature dishes like Teriyaki Chicken, Non- Veg Kebab Platter, Cheesecake, Mezze Platter, Pork Chops, and more, this Goa themed restaurant is the perfect private couple restaurant in Kolkata for you and your amour!"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

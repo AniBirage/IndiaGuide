@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity180">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MAYFAIR Lagoon"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mayfairbhu" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Enveloped in the lap of nature's breath-taking marvels, your stay with us is one of peace and unmatched privacy and plush comfort. Rooms are appointed keeping in mind the needs of the modern day traveller and luxury that our guests have always been accustomed to."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vivanta Bhubaneswar, DN Square"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vivantabhu" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Vivanta Bhubaneswar, DN Square through its contemporary style is a tribute to the emergence of Bhubaneswar as a leading smart city of India. It is conveniently located at Kalinga Nagar, which is the city’s emerging and vibrant business district. The hotel is appointed with 136 chic and stylish rooms and suites complimented by a vibrant all-day diner, a high energy bar, a pool bar, a patisserie, meeting spaces and breakaway rooms. With a generous 1858 sq m and more of banqueting spaces, it is designed to play host to large events, weddings and celebrations."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Trident Hotel Bhubaneswar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tridentbhu"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Trident, Bhubaneswar is located approximately five kilometres from the central Bhubaneswar, 20 minutes from Biju Paitnaik international airport and close to many of the city’s top attractions. This five star hotel is an oasis of luxury, set amidst landscaped gardens and fruit orchards. Savour serene views of the gardens and orchards, framed beautifully by the picture windows in your hotel room. With just 57 rooms and 5 suites spread across 56,656 square metres of manicured lawns, you can be sure of finding your own tranquil corner within the premises. The elegantly appointed rooms, inspired by traditional architecture, add an old world charm which is perfectly complemented by our warm and caring service. Guests can also enjoy complimentary high speed Internet for up to four devices. Trident, Bhubaneswar is amongst the best hotels in Bhubaneswar."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

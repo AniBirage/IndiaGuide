@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity131">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Santa Cruz Cathedral Basilica Fort Kochi"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/santacruz" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="This is considered to be one of the 8 Basilicas in Kerala. It is also considered to be one of the most visited amongst Kochi tourist places as it is counted as one of the heritage edifices of Kerala constructed in gothic style with architectural grandeur. Built by the Portuguese, it was elevated by The Pope as a cathedral along with the erection of diocese in India. The main altar of the Church has been painted by the famous Italian Painter, Fr. Antonio Moscheni S.J. Beautiful stained glass painting enhances the beauty of the painting of the Last Supper. The exterior of the church is whitewashed in white with two lofty spires adorning the façade."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cherai Beach"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cherai" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="This charming beach is neatly nestled in the suburbs of Cherai, which is one of the most visited beaches due to its serenity and clean environ. The low tides and slow waves make it a highly recommended beach for swimming and other forms of water sports. It has an alluring walkway along the beach dotted with greens and sufficient places for seating. Elderly visitors are often seen indulging in yoga, meditation or light strolls during the early morning or evening hours to enjoy the splendour of mother nature. The beach has several luxury villas, resorts and beach hotels lined along the Arabian sea where river Periyar confluence to make for a picture postcard frame."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Paradesi Synagogue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/paradesisynag"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The Jewish Synagogue also known as the Paradesi Synagogue is the oldest active Synagogue in the Commonwealth of Nations making it one of the hotspots amongst Kochi tourist places. The Synagogue has Scrolls of the law, several gold crowns received as gifts, a brass-railed pulpit, Belgian glass chandelier, hand-knotted Oriental rug and many more precious artefacts are on display at this place for visitors to have a sneak peek at the history of Kochi. Visitors are expected to enter barefoot into the premises. A narrow street between the Synagogue and Mattancherry Palace is Jew town, a den for antique lovers. Little fractions of history crafted in metal and wood waiting to be owned by a curious tourist."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="St.Francis CSI Church"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stfranciscsi"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Apart from being a very popular holy place for Christians, St. Francis Church, Ernakulam holds high historic relevance, as this is the place where the famous explorer Vasco da Gama was buried. Built by the Portuguese in regal style with Dutch and Portuguese influences, it is an architectural marvel. Visitors remain awestruck at the sight of the gabled timber-framed roof, the confession box, baptism platform and the pulpit. It narrates many tales of the old world and their way of spiritual lives."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mattancherry Palace"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mattancherrypalace"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This Portuguese palace, also known as the Dutch Palace is one of the prime places to visit in Kochi due to its historic relevance. This quadrangular palace built in typical Kerala Nalukettu style has a courtyard in the centre where is seated the Pazhayannur Bhagavati' the goddess of Kochi royal family. The flooring of the palace is a sight to behold, as because it looks like polished black marble, but has been made the traditional Kerala way using burnt coconut shells, lime, charcoal, egg white etc giving a lasting finish. The reputation of the Palace is in the various murals painted in warm and rich colours the tempura style."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

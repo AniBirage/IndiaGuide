@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/indiabg"
+tools:context=".Activity96">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="Hotels (For Stay)"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vivanta by Taj"
+            android:layout_marginTop="1dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vivan" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:text="Surajkund, NCR is an eco-friendly property surrounded by green trees and forest. Featuring elegant decor throughout, it boasts a beautiful outdoor infinity pool, pampering spa treatments and free parking. It is 11 km from Saket neighbourhood. Rest and relax in the spacious air-conditioned rooms, all equipped with soundproof walls, wooden flooring and a flat-screen TV. A well-stocked minibar and a personal safe are also included. En suite bathrooms come with a bathtub and soft bathrobes. Spread over 15,500 square feet, The Spa offers luxurious spa treatments. Guests can exercise at the fitness centre, or check e-mails at the business centre. Daily newspapers and laundry services are also available. Oasis Restaurant features 3 interactive kitchens, which serve delicious Italian, Chinese and Indian cuisines. The Sunday weekend brunch offers free flow beverages and desserts. A well-stocked wine library has over 500 selected wines. Central Courtyard offers an outdoor dining experience."
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Radisson Blue"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/radissonblue" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="Located in Faridabad, this property is suitable for all types of tourists, irrespective of whether you are on a pleasure trip with your family, or friends, or with your partner, or on a business trip, it is also suitable for solo travellers. It boasts of an outdoor swimming pool, a spa, a fitness center, a business center and many more world class facilities. The modern rooms with elegant décor and all the necessary amenities for a comfortable stay also increases its demand among the guests. Explore Faridabad like never before accompanied by a wonderful stay experience."
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Goldfinch Hotel Delhi Ncr"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/goldfinch"/>
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:text="Features free WiFi throughout the property and rooms with air conditioning in Faridabad. Guests at the 3-star property can enjoy city views from the rooms and access to a fitness centre. The rooms are fitted with a flat-screen TV with cable channels, a coffee machine, a bidet, free toiletries and a wardrobe. The private bathroom is equipped with a shower and a hairdryer. The restaurant serves Indian and international, as well as Asian cuisine. A continental breakfast can be enjoyed in the breakfast area. Speaking English and Hindi at the reception, staff are willing to help at any time of the day."
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

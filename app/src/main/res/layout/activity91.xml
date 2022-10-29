@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity91">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Siara Styles"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/siarastyles" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Featuring a garden, Siara Styles Amba Suites, Gandhinagar is located in Gandhinagar in the Gujarat region, 12 km from Mahatma Mandir and 15 km from Akshardham Temple. The accommodation provides a 24-hour front desk, airport transfers, room service and free WiFi throughout the property. The hotel will provide guests with air-conditioned rooms offering a desk, a kettle, a safety deposit box, a flat-screen TV and a private bathroom with a shower. Some rooms will provide you with a kitchenette with a microwave, a fridge and an oven. All units include a wardrobe. Guests at Siara Styles Amba Suites, can enjoy a continental breakfast. The nearest airport is Sardar Vallabhbhai Patel International Airport, 30 km from the accommodation."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gift Hub"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gifthub" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Set in Gandhinagar, 16 km from Mahatma Mandir, Gift City Club &amp; Business Centre offers accommodation with a restaurant, free private parking, an outdoor swimming pool and a fitness centre. Offering a garden, the property is located within 18 km of Akshardham Temple. The accommodation provides a 24-hour front desk, room service and currency exchange for guests. The hotel will provide guests with air-conditioned rooms offering a wardrobe, a kettle, a minibar, a safety deposit box, a flat-screen TV, a balcony and a private bathroom with a shower. At Gift City Club &amp; Business all rooms are equipped with bed linen and towels. The accommodation offers a continental or buffet breakfast. The nearest airport is Sardar Vallabhbhai Patel International, 26 km from Gift City Club &amp; Business Centre, and the property offers a paid airport shuttle service."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Grand Mercure Gandhinagar GIFT City"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/grandmercure"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="An Accor Hotels Brand features a restaurant, outdoor swimming pool, a fitness centre and shared lounge in Gandhinagar. With free WiFi, this 5-star hotel offers a concierge service and a tour desk. The accommodation offers a 24-hour front desk, room service and currency exchange for guests. The units come with air conditioning, a flat-screen TV with satellite channels, a kettle, a bidet, bathrobes and a desk. At the hotel every room includes bed linen and towels. Guests at Grand Mercure Gandhinagar GIFT City - An Accor Hotels Brand can enjoy a continental breakfast. Mahatma Mandir is 15 km from the accommodation, while Akshardham Temple is 17 km away. The nearest airport is Sardar Vallabhbhai Patel International, 26 km from Grand Mercure Gandhinagar GIFT City - An Accor Hotels Brand, and the property offers a paid airport shuttle service."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

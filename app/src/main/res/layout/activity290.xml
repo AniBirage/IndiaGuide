@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity290">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rock Garden"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rockgarden" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Started as a hobby by the founder Nek Chand Saini in 1957, the Rock Garden of Chandigarh has now become one of the best tourist places in Chandigarh. Spread in more than 40 acres of seamlessly designed and decorated land, Rock Garden is embellished with more than 5,000 illustrations sculptures. What's more amazing is the fact that everything the place holds is made out of various industrial and urban waste. The garden is segregated into three parts, each with a distinct collection of sculptures. From light spouts, terra cotta plants to a creative display of broken home appliances, the place is truly enigmatic to watch and walk around in. This is also what makes the Rock Garden, a go-to place to visit in Chandigarh, especially for a weekend get away."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sukhna Lake"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sukhnalake" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="The gorgeous Sukhna Lake, found in Chandigarh, was brought into existence by damming the Sukhna Chole in 1958. Strearched in 3 km, the lake is encompassed with sparkling water, boats and serves as home for a number of birds including the Siberian duck and the crane. Standing amongst the greatest places to visit in Chandigarh for nature lovers, activities like boat rides across the lake, fishing, water skiing and enjoying the beautiful sunset are much relished by many who visit the lake. The place is also famous among many walkers and joggers who can be seen hogging the place early in the morning. Strolling across the waterfronts of the lake is a delightful experience everybody enthusiast must enjoy."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Zakir Hussain Rose Garden"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rosegardenchandi"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Spread across an area of more than 30 acres of land, Zakir Hussain Rose Garden in Chandigarh holds some of the most elegant and fascinating collections of roses from India and the world. The garden is named and formed in the memory of India's former president, Zakir Hussain. Migrating from various parts of the country, a collection of more than 16,00 species of 50,00 rose plantations can be found here. Apart from roses, the place also homes a bunch of graceful trees including plants of bel, camphor, bakers, harar and others. Tourists from various parts of the world visit the place and no matter how many times they tour, they always find themselves awestruck by its beauty. An interesting locale, Zakir Hussain Rose Garden is definitely one of the best tourist attractions in Chandigarh."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Government Museum and Art Gallery"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/artgallerychandi"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Encapsulating an alluring history to it, Government Museum &amp; Art Gallery was brought into existence along with the partition of India in 1947. Before partition, the properties inside the museum were decorated in the Central Museum. However, post partition, up to 6% of all the properties in Central Museum was adopted by Pakistan, others shifted to Government Museum &amp; Art Gallery of Chandigarh. Clasping a grand exhibition of various Pahari and Rajasthani paintings, Gandharan sculptures, decorative arts and more, the museum is surely one of the most exquisite tourist attractions in Chandigarh. A great place to learn and admire the rich history of our country, the museum is a must visit."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Capitol Complex Tourist Center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/capitolcomplex"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Encompassed in an enormous 100 acres of land, Chandigarh Capitol Complex is a reflection of the rich architectural mastery the city has to offer. Designed by an honored and celebrated architect, Le Corbusier, the complex homes a number of uniquely constructed and curiously fitted buildings. Apart from the buildings the place also holds three memorabilia including the Secretariat, Open Hand Monument and the Palace of Assembly, in its compound. Its wealthy historical value has also helped it gain a name in UNESCO's world heritage sites. A must-visit for every tourist, Chandigarh Capitol Complex is one of the favorite tourist places in Chandigarh, admired by both national and international tourists."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Japanese Garden"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/japnesegarden"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="A brand new extension to the glorious amalgamation of gardens Chandigarh has, Japanese Garden was opened for the public in 2014. Spread across a vast 13 acres of land, the garden exhibits various aspects of Japanese culture and tradition. From the equanimity of the Zen garden to the peaceful atmosphere of the meditation hut, ponds and a pagoda tower, tourists can indulge in a variety of activities here in the garden. The garden was primarily designed with the motive to protect and hold numerous sculptures and relics of the Buddhists. A spiritual place for some, an enigmatic tourist attraction for others, the Japanese Garden serves all kinds of visitors and holidaymakers."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="International Dolls Museum"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/interdolls"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Exhibiting the doll culture from across the country and beyond, the International Dolls Museum in Chandigarh is a place one can never forget. Adapted from a number of tales and stories including Ali baba, Cinderella, Sleeping Beauty among others, each collection of dolls here portrays a distinct story. Informative and fun, the place goes perfectly with the little ones who are found dancing and singing around the place, enjoying the sight of their favorite Disney character doll. Adding on to the charm of the place are lush tropics and vast gardens that surround the area offering tourists a place to relish some time in the lap of nature. All in all, if you are in Chandigarh with your family, you have to include the International Dolls Museum in your itinerary."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

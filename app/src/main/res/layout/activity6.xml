@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="CHHATTISGARH"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/black"
+        android:text="Raipur" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="Bilaspur" />
+
+
+    <TextView
+        android:id="@+id/CGdes"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Chhattisgarh is a landlocked and heavily forested state located in the region of Central India. Formerly part of Madhya Pradesh it was granted statehood on 1 November 2000. It is the 9th-largest state in India. Chhattisgarh has 3rd largest forest cover in country. State is surrounded by forests in Madhya Pradesh (1st), Odisha (4th), and Maharashtra (5th), Jharkhand, Telangana making it India's largest covered forests across state boundaries."
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>

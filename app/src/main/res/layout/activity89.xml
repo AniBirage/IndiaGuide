@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity89">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Akshardham Temple"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/akshardhamgandhinagar" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="The Akshardham temple in Gandhinagar city is one of the biggest temples in India, and it is a major pilgrim destination that many people swarm to. This temple is dedicated to Lord Swaminarayan and was built by BAPS Swaminarayan Sanstha, the same organisation as the one in Delhi. Located in the capital of Gujarat, the complex took over 13 years to build and was inaugurated on October 30th, 1992. Akshardham mandir is situated in the centre of the 23-acre complex, which is built from 6,000 metric tonnes of pink sandstone from Rajasthan. Akshardham acts as a cultural centre and is a melting pot that can enthral tourists from around the country. The temple seeks to spread the teachings and philosophies of Bhagwan Swaminarayan and is a centre of devotion, education and unification of the society as a whole. The temple consists of one huge monument and a surrounding garden that families use as a picnic spot as well. Recently, they put up the first-of-its-kind laser water show in the world, which is a must see. Facilities of wheelchairs, baggage, lost and found, parking, etc. are also available."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Adalaj Stepwell"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stepwell" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Adalaj Stepwell is a magnificent structure built brilliantly to curb water crisis in and around Adalaj Village. The stepwell is located at a distance of 3 to 4 kilometres to the south-west of Gandhinagar, the capital city of Gujarat. The Adalaj Stepwell was built in 1498 and is one of the many step wells built in India to provide access to groundwater. The entire architecture is an excellent illustration of the intelligence of the engineers and architects India had even at that time."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sarita Udyan"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/saritaudyan"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Sarita Udyan is a picnic spot that is popular among the locals, and this is located adjacent to a deer park, which is another must see location. It never fails to enthrall both kids as well as adults."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

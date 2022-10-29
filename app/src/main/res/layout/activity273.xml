@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity273">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shervani Hilltop Nainital"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shervanihilltop" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="In existence since 1960 and operating as a resort since 1981, Shervani Hilltop Nainital is spread across the lush green land of the mountain side of Uttarakhand, with elite facilities. Located in the midst of nature, with a view to appreciate the surroundings from each of the 47 accommodation options, the hotel has been beautifully constructed with wooden floorings and fine furnishings. The hill resort is built in the form of little cottages, just 2 KM away from the mall road. And the best part is that it is away from the maddening rush of the town, yet always there! Shervani Hilltop, Nainital is a luxurious resort in Nainital with the best facilities to give you complete comfort. Serene Environment around the resort with indoor and outdoor activities provides peace from the hustle-bustle of city life. Nainital is the closest hill station from Delhi, can be a weekend getaway who like nature and loves travelling. It is around 6 hours and 280 Km away from Delhi. Stay in Nainital with Shervani Hilltop, Nainital gives you an awestruck view of the Lake District of India. We are the best hotel in Nainital to give you a comfortable stay with lots and lots of fun activities that we organize inside the hotel. We dedicated our hospitality to creating memories for our guests."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Naini Retreat, Nainital"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/thenainiretreat" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Historically referred to as the residence of the Maharaja of Pilibhit, The Naini Retreat Hotel is among the best heritage hotels located in Nainital near the lake. The hotel is situated on the picturesque Ayarpatta Slopes, providing a breathtaking view of the Naini Lake at an altitude of 1,995 meters. This luxury hotel, a strikingly beautiful palatial building, embodies an old-world charm along with visible impressions of contemporary luxury. If you are wondering what awaits you here, then you will be glad to know that we offer royally furnished bedrooms, the best luxury rooms and suites in Nainital, that exude new age grandeur and hospitality. Our friendly staff are ever ready to assist you throughout your stay. For an intimate and exceptional dining experience, we serve a variety of Indian, Mughlai, Chinese and Continental cuisines in our dining rooms that overlook lush green landscapes and winding valleys. We take pride in offering the best Kumaon food for our guests. Not to disappoint our business and corporate guests, the hotel provides exclusive services to host business conferences and meetings in our spacious conference halls, the best conference halls in Nainital."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Manu Maharani"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/themanu"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Away from the Hustle and bustle, yet located in the heart of the town, The Manu Maharani Hotel and Spa, Nainital is only a short walk from the Mall at Nainital. Rated as one the finest resorts of the Kumaon Region, hotel reflects the true values of warmth with service excellence with stylish and well-designed interiors. Elegant surroundings, flawless services and best of cuisines combined with the pristine beauty of the Kumaon hills, makes it a perfect destination for a holiday or a business conference. The hotel overlooks the Nainital valley and offers a panoramic view of the magnificent Naini Lake. Commissioned in the year 1991, The Manu Maharani Hotel and Spa, Nainital was fully refurbished in 2006 with exclusive interiors and surrounding. The wide drive way opens into a sun soaked lobby casting a spell of gentle vibes of a warm welcome, typical of The Manu Maharani hospitality. A pleasant blend of tradition and contemporary charm of the hotel gives the guest, an intensified level of relaxation and comfort."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

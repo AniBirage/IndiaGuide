@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity65">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kanan Pendari Zoological Garden, Bilaspur"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kananpendarizoo" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Kanan Pendari Zoological Garden situated in Bilaspur of Chhattisgarh. The Zoological Garden is extended over 114 hectares of land. The garden is covered with dry and deciduous flora. The garden was established to conserve the wildlife species. The garden harbours distinct varieties of flora and fauna. The garden permit is at nominal price which makes every person comfortable and satisfied to explore the garden of Bilaspur."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kutaghat Dam"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kutaghat" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Bilaspur's Kutaghat Dam is famous with every tourist. It is around 10 km from Ratanpur, the city famous for ruins of forts and served as the capital of Chhattisgarh once. Kutaghat Dam is constructed on the serene banks of Kharoon River and helps in the irrigation process of the entire region. You will be enchanted by the impeccable beauty of the Kutaghat Dam. Surrounding forest and hills lend this dam an extra charm. You can stay on this site for a long time as it is an idyllic picnic spot too. There is a beautiful and comfortable rest house near Kutaghat Dam. So if you want to spend long time here then don't be worried. It is a perfect retreat to put up in."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mahamaya Devi Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mahamaya"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Mahamaya Temple is a temple dedicated to Goddess Durga, Mahalaksmi located at Ratanpur of Bilaspur district in Chhattisgarh, India and is one of the 52 Shakti Peethas, shrines of Shakti, the divine feminine, spread across India. Ratanpur is a small city, full of temples and ponds, situated around 25 km from district Bilaspur of Chhattisgarh.Goddess Mahamaya is also known as Kosaleswari, presiding deity of old Daksin Kosal region (modern Chhattisgarh state)."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

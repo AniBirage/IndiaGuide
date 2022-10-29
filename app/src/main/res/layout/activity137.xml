@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity137">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kozhikode Beach"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kozhikodebeach" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Situated on the Malabar coast and endowed with natural beauty, Kozhikode beach should be a must in the itinerary of your visit to the city. This beach is renowned for the sunsets that tourists throng here to enjoy. Though the water is muddy and not suitable for swimming, still the stunning view of the Arabian Sea that the lighthouse offers more than compensates for the shortcoming. Payannakal, Putiyappa, Elathur, Beypore, all these beaches are part of the long stretch of Kozhikode beach. This beach lies on the western side of the city and is easily accessible through the four roads in the city."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mother of God Cathedral, Kozhikode Diocese"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/motherofgod" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Visit Mother of God Cathedral, Kozhikode Diocese to experience the intricate designs carved on the doors and windows. Apart from its religious significance, the church is a perfect example of Italian architecture and Indian craftsmanship.  Built in 1513 by the Portuguese, this church brought in a new era of Catholic congregation. In 1724, the church was renovated where stones and mortar were used to bring durability. Spare some time to take a tour of the church where you get to see the stunningly beautiful 200 years old portrait of St. Mary and take in the beauty of this Gothic-style church. Moreover, visit the adjoining cemetery to see the tombstone of Pedro de Covilhany, the first Catholic missionary of Kozhikode."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sri Srikanteshwara Swamy Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/srikantesh"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Take a break from daily life and pay a visit to the Srikanteshwara Temple in Kozhikode. On your visit to Kerala, you must add this temple to your list of places to see in Kozhikode.   More than a hundred years old, this temple is dedicated to Lord Shiva and is a must-visit pilgrimage of Hindus. Apart from Lord Shiva, you can worship Lord Ganapathy, the serpent Gods, and Lord Krishna. There is a much widely circulated folklore regarding the temple and its construction by the Maharaja of Travancore. Moreover, the Shivaratri festival is celebrated in much gaiety and fervor here. Apart from that, the moment you arrive in the temple, you will be engulfed by its tranquil atmosphere and both devotees and visitors are welcome inside it. Further, take time to explore the beautiful architecture and some quiet moments near the pond."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Beypore Beach"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/beyporebeach"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Situated near the mouth of Chaliyar river, Beypore beach is a famous tourist destination. Your visit to Kozhikode remains incomplete without a day spent at Beypore beach. There is never a dearth of activities once you are at the beach. Clearly, one of the favourite tourist places to visit in Kozhikode, this beach takes into a different world with its numerous fun-filled activities to keep you engaged as it offers abundant water activities like surfing, sunbathing, water skiing and swimming. You can take in the vast expanse of rich golden sand, coconut trees that dot the coastline or the stone bridge known as Pulimoodu, which builds a pathway into the sea. There is never a dull moment at the beach and you can pamper yourself in a refreshing Ayurveda massage."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

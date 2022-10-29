@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity311">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Grand Dragon Ladakh"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/granddragon" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Established in the year 2007, The Grand Dragon Ladakh, one of the first 5 star hotels in Leh Ladakh, is owned and operated by the Abdu family from Leh, who have more than 40 years of experience welcoming visitors to the beautiful region. It is decorated magnificently with handmade paintings by Gulam Mustafa (First modern Artist of Ladakh) around every corner, and fixtures that are reminiscent of royalty. The Grand Dragon Ladakh is the first hotel with a host of state of the art amenities, such as electronic key cards for the rooms and a baggage scanner, as well as their own sewage treatment facility. The entire facility is wheelchair accessible, for providing differently abled guests with a comfortable sojourn. The hotel is also centrally heated and solar powered, not only ensuring warmth but also ensuring that all our services are eco-friendly. The attention to detail offered by the associates, coupled with the magnificent views, will guarantee you take back home sweet memories."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Zen Ladakh Resort"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zenladhak" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Hotel The Zen Ladakh-one of the top hotels in Ladakh, is synonymous with Comfort, Safety, Luxury and Aesthetics in an affordable range. Hotel The Zen Ladakh endows upon all its guests, a level of warmth, comfort and personal service like never before. Our motto is ‘Athithi Devo Bhava’ - indeed, we leave no stone unturned in our Godly treatment to all our guests. Our sole aim is to rejuvenate your senses and make you revel in the tranquility inducing services, expansive picturesque views, Mouth-watering cuisines and traditional elements thus making it the best accommodation in Ladakh. Affordable luxury which never compromises on comfort, safety, and aesthetics is what we at Hotel The Zen Ladakh stand for. We give you the most comfortable stay in Ladakh keeping in mind the luxury, beauty and convenience with all modern amenities."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Grand Himalaya"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/grandhima"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Welcome to the Grand Himalaya, a finest luxury hotel located in the exotic Leh valley. Grand Himalaya offers its guests tastefully decorated spacious rooms equipped with all modern day comforts. Beautiful traditional wood carving adorns the windows, balconies and the main entrance of the hotel. The hotel's location lets you enjoy splendid views of Leh palace, Stok mountain range, Kardoung La and yet be very close to the main town (5 minutes walking distance)."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity205">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Umaid Bhawan Palace, Jodhpur"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/umaidbhavanhotel" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Built between 1928 and 1943, Umaid Bhawan Palace is a magnificent piece of Rajasthan’s heritage, and a symbol of new Jodhpur. Home of the erstwhile Jodhpur royal family and currently the world’s sixth-largest private residence, the palace has one thing in common with the iconic Taj Mahal at Agra—the palm court marble used in its construction. Perched on Chittar Hill, the highest point in Jodhpur, Umaid Bhawan Palace inspires with exotic views of the historical Blue City, vast sand dunes, and intimidating Mehrangarh Fort. This heritage palace hotel in Jodhpur is conveniently located 20 minutes from the airport, close to the main shopping areas, and the Balsamand and Kalyana lakes. The last of the great palaces of India, the property houses a family museum, as well as the resplendent Umaid Bhawan Palace. Set amidst 26 acres of lush gardens, with dancing peacocks and a subterranean Zodiac Pool, our 5 star hotel in Jodhpur offers 70 utterly breathtaking Art Deco- style rooms and suites. Tantalise your taste buds at Risala with authentic Rajasthani and Indian cuisine. Discover an array of European and Mediterranean delicacies at Pillars, set in a lovely colonnaded veranda. Unwind at the Trophy Bar with its unique hunting-themed décor and vast selection of alcoholic beverages and cigars. Pamper yourself with rejuvenating signature treatments and therapies at the Jiva Grande Spa, or soothe your mind and body with yoga and meditation. Take a heritage walk and relive a fascinating bygone era brought to life through majestic monuments. Soak in the original architecture of a fascinating bygone era and discover the rich history of a palace that has enjoyed actual royal company—Maharani Badan Kanwar of Jodhpur having lived here. Stroll through the lush, landscaped Baradari Lawns, perfect for those who have always envisioned a fairy tale wedding. Come, experience luxury like the royals did."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="RAAS Jodhpur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/raasjodh" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="RAAS is Jodhpur’s first boutique hotel with a signature look born from a fusion of modern and ancient styles. The courtyard is a tranquil haven within the hustle and bustle of Jodhpur’s old town. With a stunning entrance, flanked by a magnificent pool, the hotel comprises four original buildings with three additional contemporary structures. Inspired by the Walled City, the new buildings feature a modern approach to the use of space and light yet each is grounded in tradition. Intricate architectural carvings adorn the structure in the iconic style of 18th-century havelis. Jodhpur’s red sandstone unites the old and the new with the contemporary designs adding an exciting and fresh dimension to the region’s ancient carving industry."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Welcomhotel by ITC Hotels, Jodhpur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/welcomhoteljodh"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Designed for those who demand more to make the most out of their stay, Welcomhotel is the new age traveller's key to curated immersive experiences that enrich both business and leisure journeys. Present in locations ranging from hills to beaches, and deserts to cities, our hotels skilfully blend together local aesthetics and modern day comforts along with ITC Hotels' renowned culinary expertise."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

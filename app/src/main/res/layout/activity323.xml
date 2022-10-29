@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity323">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sri Aurobindo Ashram"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/aurobindoashram" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="One of the most peaceful and spiritual Tourist Places in Pondicherry, Sri Aurobindo Ashram in Pondicherry is well-known across the world and was founded in 1926 by Sri Aurobindo. The ashram is sprawling and has libraries. It hosts many physical education activities such as sports, asanas, strength training, and swimming. At the centre of the ashram is the Samadhi or mausoleum of Sri Aurobindo under a frangipani tree. If you have an inclination towards spirituality, yoga, and meditation, this ashram is one of the best places to visit in Pondicherry to find your inner self."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Promenade Beach"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/prombeach" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Pondicherry has a naturally formed rocky promenade that has become one of the most sought-after places to visit in Pondicherry by photographers. This naturally scenic place with refreshing cool sea-breeze is perfect for long strolls and fun-filled gala time with your loved ones. There are several restaurants around this posh area offering a culinary feast. You can also find hawkers selling peanuts and cotton candies by the promenade. If one picture has to mark your presence in Pondicherry, then a picture at the Promenade Pondicherry does the job perfectly well!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Sacred Heart Basilica"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/basilicasacredheart"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Known for its elegant gothic architecture, Basilica of the Sacred Heart of Jesus is one of the most popular places to visit in Pondicherry. Offering prayers to the Almighty, devotees congregate here at this revered place of worship. It is known for having the glass pictures of 28 saints and many glass panels depict the life of Jesus adding to the interesting sights of this church in Pondicherry."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="French War Memorial"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/frenchmemorial"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Located at Goubert Avenue, The French War Memorial is one of the major historical places to visit in Pondicherry. The memorial was built as a homage to the valiant soldiers who laid their lives to rest during the World War I. On 14th July every year, on the occasion of Bastille Day (French National Day), the memorial is decorated with lights and locals and tourists gather here to pay their respect. The memorial is truly an architectural magnificence and stands tall telling untold stories of the war."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pondicherry Museum"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pondicherrymuseum"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This art and history museum in Pondicherry has an enviable collection of 81 intricately carved bronze sculptures from the Chola empire. Apart from the bronze statues collected from the Chola and Pallava dynasties, the museum also houses artefacts from the archaeological excavations at Arikamedu that takes one on time travel to centuries before. It takes two full hours to witness all the collections on display. While most Pondicherry famous places are open all through the week, the museum is closed on all Mondays."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rock Beach"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rockbeach"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The Rock beach with golden sands in one of the topmost photogenic Pondicherry sightseeing places with friends and family. The beach is well-kept and spectacular that you can spend hours gazing at the beautiful sight of the undulating waves touching the rocky shores. You can also walk along the long stretch of the beach breathing in the fresh ocean air. The beach does get crowded on weekends but still is well-maintained and clean. There are many restaurants and eateries along the shoreline to savor some scrumptious snacks. Visit the beach at the morning hours when the beach is less crowded and witness the ball of fire rising from the blue water in its full glory."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Immaculate Conception Cathedral"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/immaculateconceptioncathedral"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Also known as ‘samba kovil’, Immaculate Conception Cathedral is a beautiful church and one of the oldest tourist places in the city of Pondicherry. It is a reminder of Portuguese styled churches of Goa and known as the mother church for the Roman Catholic Archdiocese of Pondicherry and Cuddalore. One must visit Immaculate Conception Cathedral when mass services are performed to appreciate the spiritual ambiance of this place of worship."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Arulmigu Manakula Vinayagar Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/manakulatemple"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Manakula Vinayagar Temple is one of the very ancient Hindu temples in India that is believed to be built before the 15th century. Manakulam translates to 'sand pond' in Tamil and this temple is dedicated to Bhavaneshar Ganapathy (Ganesha). The temple is built in the royal Tamilian style of temples with a sprawling mandapam, raja gopuram and praharam and the walls have astounding paintings of events from Hindu mythology. The chariot at this temple is the key attraction here which is made from 7.5 kg of gold and teak wood. Visit this temple during the Vijayadasami day of Dussehra when the Lord is carried out on this richly ornate chariot for people to witness. A list of places to visit in Pondicherry is never complete without Manakula Vinayagar Temple."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

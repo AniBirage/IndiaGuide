@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity206">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Lake Palace"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lakepalace" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="The Lake Palace in Udaipur is located on the Jag Niwas Island on a sprawling 1.5-hectare land. This magnificent structure was built on Lake Pichola by Maharana Jagat Singh in 1734. Once a summer palace for the royalty of Udaipur, it has now been converted into a heritage hotel. Still retaining the grandeur, it resembles a fairy tale kingdom. Enhancing the magical aura are the rippling waves and the beautiful sunset. The intricate craftsmanship and aesthetic handicrafts and textiles add to the beauty of this place. The elegant white marble palace is a fantasy as it arises softly from the blue waters. 4 acres of rock have been used to lay the foundation of this palace and was known as Jag Niwas after its founder."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="City Palace"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/citypalaceudai" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="The City Palace in Udaipur in the state of Rajasthan has a lot in its store to reveal the age-old history it possesses. The royal building is a huge complex with plenty of rooms and pillars inside. It took more than 300 years to complete the structure properly. Started during the time of Maharana Udai Singh II. Lake Pichola nearby is the highlight when you get ready for a tour of the greatest places to visit in Udaipur. Since it is the biggest building in Udaipur it is considered as one of the best sightseeing destinations. The flamboyant structure with a blend of Mughal and Rajasthani architectural style dominates other famous palaces and buildings around the city very authentically."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lake Pichola"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lakepichola"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This is one of the most important places to visit in Udaipur. Lake Pichola is the reason we call Udaipur the ‘City of Lakes’. Built in 1362, and extending 3 miles in length and 2 miles in breadth, this lake is an essential part of Udaipur and far by its best feature. Astonished and amazed by the beauty of Lake Pichola, Rudyard Kipling once wrote-If the Venetian owned the Pichola Lake, he might say with justice, `see it and die'. Take Kipling at his word and visit Lake Pichola when in Udaipur, both in the day and at night. the lake takes on a whole new character depending on the time of the day. In the morning, the lake and palaces are quiet. The lake is speckled with tourist boats and people clicking selfies line the shores. As night creeps in, all the Palaces around the lake light up and illuminate the lake. No boats, no birds, nothing to see except the lit-up palaces as they stand impressively around the lake. It is an awe-imposing spectacle."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Fateh Sagar Lake"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fatehsagarlake"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The Fateh Sagar Lake is known to be the second largest lake in this city, is located on the northern side of Lake Pichola and is just opposite the entrance to Moti Magri Mahal. This artificial lake was built by Maharana Jai Singh in 1678 and got its name from Maharana Fateh Singh. This water body has a depth of 11.5 metres and extends 2.4 km in length and 1.6 km in breadth. There are three intake channels and one overflow channel in the lake that actually comes into play during the monsoon season. The three small islands on the lake can be easily reached by a boat. The large island on the lake has a garden and a boat shaped restaurant named Nehru Park. This island also has a small zoo and is a favourite picnic place for the local people. The second island on the lake has been converted into a beautiful garden with a lot of water jet fountains and is looked after by the government of the state. The third island is managed by the Udaipur Solar Observatory which is known as the best solar observing site in Asia. This is a quiet place and one can enjoy a boat ride here."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jagdish Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jagdishtemple"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Built by Maharana Jagat Singh in 1651, Jagdish Temple, situated within the Udaipur City Palace is another one of the great works of architecture from the olden days. It has finely carved pillars, beautifully decorated ceilings, gorgeously painted walls, and spacious halls and corridors. Apart from this, the architectural expertise also extends itself to the pyramidal spire, mandap (prayer hall) and the porch. There are 50 finely carved pillars, each on the first and the second floors of the three storey temple. The main shrine, dedicated to Lord Vishnu, is reached by climbing 32 marble steps and it is encircled by minor shrines of Lord Ganesha, Sun God, Goddess Shakti and Lord Shiva respectively. All the fine details of the palatial temple are built in accordance with the Vedic Vaastushastra, which speaks of the science of building. The entire structure today serves not only as a place of worship but also as an initiation into the culture of the people of the past. It shows how highly they regarded architecture as a means of expression of sentiments; the construction of this temple cost Jagat Singh 1.5 million rupees. It is a magnificent temple and a must see when in Udaipur. Do include a visit to this temple on your visit to the City Palace. It is open practically all day- from 5.30 am to 10pm."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

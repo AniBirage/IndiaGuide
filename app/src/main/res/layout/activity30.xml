@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity30">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="ANDAMAN &amp; NICOBAR ISLANDS"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/black"
+        android:text="Port Blair" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="Mayabunder" />
+
+
+    <TextView
+        android:id="@+id/ANdes"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="The Andaman and Nicobar Islands is a union territory of India consisting of 572 islands, of which 37 are inhabited, at the junction of the Bay of Bengal and the Andaman Sea. The territory north of Aceh in Indonesia and separated from Thailand and Myanmar by the Andaman Sea. It comprises two island groups, the Andaman Islands (partly) and the Nicobar Islands, separated by the Ten Degree Channel (on the 10°N parallel), with the Andaman islands to the north of this latitude, and the Nicobar islands to the south. The Andaman Sea lies to the east and the Bay of Bengal to the west."
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>

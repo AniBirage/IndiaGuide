@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity41">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Restaurants"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Continental Park Hotel"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/continentalparkhotel" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This restaurant is known for their best biriyanis in the Vijayawada; their tasty food is loved by many. The quality and quantity served are ample, the ambiance is decent, they have various food festivals/offers running almost every month. Most loved dishes at this restaurant is Bamboo Biriyani, Paneer Tikka Biriyani(our personal favorite), Shahi Ghost Biriyani. And the best part is they serve piping hot Biriyanis even at 2 am."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Babai Hotel"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/babaihotel" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                android:text="This is one of the top restaurants in Vijayawada. Babai Hotel was established in 1942 by Patruni Samba Murthi. This place is known for their Soft, and buttery Idlies served with Ghee and topped with white butter and ghee karampodi on the side. Even the Upma Pessarattu is one of the most loved dosa as its made with wheat upma. Many celebrities like ANR, NTR, Savitri, Chandra Mohan and many others have visited this place for its taste and quality service even the former chief minister of the state NT Ramarao himself served the Idlies to Atal Bihari Vajpayee during Mahanadu in 1988. They also serve an authentic Filter coffee."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sri Durga Hotel"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sridurgahotel"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This is one of the hidden gems of Meals hotels established in 1987. This hotel is one of the best meals restaurants in Vijayawada serving you the most authentic Vijayawada style meals, you can have this unlimited buffet of all the authentic Andhra style curries and rice you want or until you burst your tummy :P, most loved curries at this hotel are Bendakay fry, tomato pappu, and Ulvacharu. They serve Ulvacharu with milk cream it’s a unique combination tingling your taste buds, invented right here in Vijayawada. Do try the ghee, pappu and podi combination as well."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

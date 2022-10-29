@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity254">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ITC Mughal, A Luxury Collection Resort &amp; Spa, Agra: "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/itcmughal" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Sprawled over 93077 sq. m of Mughal-style gardens, with the characteristic use of water channels, fruit trees, flowers and shaded walkways, the resort is a fitting tribute to the great Mughal builders of the past. In close proximity to the Taj Mahal, this luxury resort offers 233 opulent rooms and suites, a resplendent spa, signature cuisine offerings and a range of elaborate banqueting facilities. It recreates a paradise for the contemporary Mogul - exemplifying the splendour and perfection that was the hallmark of the Mughal Dynasty."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Radisson Hotel Agra"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radagra" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Located within view of the magnificent Taj Mahal, Radisson Hotel Agra offers a comfortable stay near Agra’s city center. Once the seat of the Mughal Empire and now home to three UNESCO World Heritage sites, Agra is teeming with lush gardens, historic mausoleums, and bustling marketplaces offering local products such as textiles, spices, and leather goods. Four main railway stations and two major bus terminals make city-wide travel a breeze, while the nearby Expressway provides a convenient link to Delhi and Jaipur, the two other major cities that make up the Golden Triangle tourism circuit. Once you’ve checked in, settle into your spacious room and recharge with a meal from room service. When you’re not exploring the city’s many attractions, you can unwind with a dip in our outdoor pool or make an appointment at our on-site spa. A fitness center lets you keep up with your exercise routine during your stay."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DoubleTree by Hilton Hotel Agra"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/doubletreeagra"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Our Agra hotel is under three kilometers from the Taj Mahal — you can see the famous landmark from our infinity pool. Agra Fort, Itmad-ud-Daula, and Pandit Deen Dayal Upadhyaya Airport are all within 13 km. Enjoy a treatment in our spa and take advantage of our 24-hour fitness center. We'll have a cookie waiting."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

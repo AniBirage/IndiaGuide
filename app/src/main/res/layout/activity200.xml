@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity200">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="City Palace, Jaipur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/citypalace" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Located in the heart of Jaipur, City Palace is the most remarkable monument in the list of places to visit in Jaipur. Guarded by huge impounding walls, this palace is a fusion of Rajput and Mughal architecture.  Whether with its everlasting architecture or the enchanting decorations, City Palace has kept the amplitude of the Rajputs alive. Constructed during 1729-1732, under the supervision of Maharaja Sawai Jai Singh II, the City Palace boasts of very minute detailing. Chandra Mahal and Mubarak Mahal comprise the major portion of this palace. Udai Pol, Jaleb Chowk, Tripolia Gate and Virendra Pol are the entrances to this palace. Embossed with fine artworks and engravings, every corner of this palace is filled with immemorial imprints from the past."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amber Fort and Palace"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/amberf" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Located amidst the picturesque and rocky Aravalli Hills, Amber Palace is a not-to-be-missed place in Jaipur. The foundation stone of this palace was laid by Raja Man Singh I and was completed by Mirja Raja Jai Singh. The beguiling beauty of the red sandstone and white marble adds to the magnificence. While the high formidable walls defended its residents from enemy attacks, the main building of the citadel served its people with all the luxuries and amenities.The scenic backdrop of the Maota Lake and panoramic views of sunrise and sunset contribute to the eternal beauty of this palace. Intricate wall paintings, frescos and the use of precious gems and jewels in these paintings add to its timeless beauty."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hawa Mahal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hawamahal"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Hawa Mahal or Palace of the Winds, or also called Palace of the Breeze, is one of the important places to visit in Jaipur. Built by Maharaja Sawai Pratap Singh in 1798, Hawa Mahal is a five-storey extension in the form of a honeycomb. This unique building has 953 small windows, called jharokhas, decorated with intricate latticework. The entire palace represents the crown of the Hindu God, Lord Krishna. Even though this palace was built during ancient times, it reflects the scientific vision of Maharaja Sawai Pratap Singh in a distinct way. The windows of this palace have been designed in such a way that irrespective of the time or season of the year, cool breeze always persists inside the palace. Due to this reason, Hawa Mahal was the favourite summer holiday destination of the Rajput family and is today a popular place to visit in Jaipur."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nahargarh Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nahargarhfort"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="To get a panoramic view of Jaipur city, Nahargarh Fort is the ideal place to visit. Built by Jai Singh II, Nahargarh Fort was originally named Sudarshangarh and was later renamed as Nahargarh or the Abode of Tigers. The then Maharaja of Jaipur constructed this fort in order to tighten the security of the region. It also served as a safety shelter to the British wives during the Sepoy Mutiny of 1857. Located on the rocky ridge of Aravalli Hills, Nahargarh Fort offers the most striking view of Jaipur’s scenic landscape. During the night, when the entire Jaipur city gets lit up, Nahargarh Fort offers the most sparkling view of the entire city."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jal Mahal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jalmahal"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="It was during the Rajput era that India has seen some of the glorious forts and palaces. Jal Mahal or the Water Palace is one of the classic names in the list of Rajputana architecture. Located in the middle of the Man Sagar Lake, this palace is also a fusion of Mughal and Rajput styles of architecture. Built in red sandstone, Jal Mahal is a five-storey building, of which four storeys remain underwater when the lake is filled. This, in turn, offers a breathtaking view of the palace and makes it one of the important Jaipur tourist places so if you are in Jaipur, Jal Mahal is one of the must-visit places in the tour list."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jantar Mantar, Jaipur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jantarmantarjai"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Maharaja Sawai Jai Singh, the ruler of Jaipur was one of the best theorists of ancient India. After achieving the milestones of constructing the planned city Jaipur, as well as several other scientific and architectural epitomes, the Maharaja built five astronomical instruments to study space. These instruments were called Jantar Mantar, which means Calculating Instrument. The largest of these instruments is located in Jaipur and has been declared as a World Heritage Site by UNESCO. Jantar Mantar consists of fourteen geometric devices that measure time, predict eclipses, track the location of stars and the Earth’s movement around the sun. Samrat Yantra is the largest instrument in this observatory and it was used to forecast time. Plotting the shadow of Samrat Yantra, the time for eclipses and the arrival of monsoons can be calculated. Samrat Yantra is also the largest sundial in the world."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

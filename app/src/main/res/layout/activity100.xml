@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="KULLU-MANALI"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/black"
+        android:text="TOURIST ATTRACTIONS" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="RESTAURANTS" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="HOTELS (FOR STAY)" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="October to June is the best time to visit Kullu-Manali. With bright, colourful flowers in full bloom and a pleasant climate with temperatures ranging between 10 degree Celsius and 25 degree Celsius. December to February is the best time to experience snowfall. With temperatures that hover around subzero, Kullu-Manali becomes a paradise on earth with its snow-clad surroundings While tourists visit Kullu-Manali throughout the year, monsoon season (July to August) is a bit low, due to landslides and land-blockages."
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>

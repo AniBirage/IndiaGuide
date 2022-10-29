@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity276">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Victoria Memorial"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/victoriamem" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="It is a beautiful White Marble structure which began making in 1906 and was completed by 1921. While it originally got built with the idea of dedicating a memorial to Queen Victoria of Britain, it has now turned into a museum that attracts numerous people due to its stunning architecture and display. The artistic monument is a mixture of British as well as Mughal form of architecture. Inside the huge fortress is a museum that has 25 galleries featuring sculptures, portraits, national leaders, arms, and armour. Moreover, it has unique, and original  works of William Shakespeare, Omar Khayyam, as well as Arabian Nights."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Howrah Bridge"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/howrahbridge" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="This one tops the list of places to see in Kolkata, probably because it gets so often portrayed in movies. It was constructed in 1943 replacing the Pontoon Bridge and is made of steel. Due to the immense popularity that the bridge has, tourists from far and wide travel to Kolkata just to visit the amazing bridge. One will be amazed to see the view from the bridge in the evening. The entire river Hoogli seems like an endless lake with the sun going down into the horizon. The suspended bridge ranks 6th amongst the longest bridges in the world."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Fort William"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fortwilliam"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Fort William is named after King Williams and is one of the most popular places to visit in Kolkata. The site was built in 1696, where the builders used bricks and mortar to make this famous fort. Interestingly, the port has a total of 6 gates, namely; WaterGate, Saint Georges, Treasury Gate, Plassey, and Chowringhee. People who love British architecture will love this place. The gates are an architectural marvel, built by the British. Also, you can get to see the cannons kept on display. These cannons are quite old, and belong to the British. One can easily fall in love with the high roof, wide aisles, and solid structure of this magnificent fort."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Marble Palace"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marblepalace"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Marble Palace is an incredibly magnificent maisonette located in Kolkata, along the Babu street, India. As one can rightly guess, the palace is among the few remaining buildings of the nineteenth century. Built in neoclassical style, the mansion continues to be the residence of the heirs of the King. To give you a scenic background of the mansion, it is surrounded by lush green lawns and beautiful fountains. Galleries run amidst the lawns of the mansion which display artistic statues, portraits, mirrors, chandeliers and paintings created by English, Dutch and Italian artists. It may interest you to know that the mansion also houses a private zoo."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dakshineswar Kali Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dakshineswarkali"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Dakshineswar temple located in West Bengal, India is a commonplace for festivals such as Yatra, Snana, Kalpataru Day, and Kali Puja. Additionally, the temple was started by Rani Rashmoni in the nineteenth century. The temple assumes Bengal architecture, a total of three floors. Little do people know that the total area of the temple complex measures about 54.4bighas and costs Rani Rashmoni around Rs 42, 500 only. The temple is loved by every Bengali and is considered to be an abode of Goddess Kali. The temple was a dream that Rani Rashmoni dreamt before undertaking a pilgrimage to Varanasi."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

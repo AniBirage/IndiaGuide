@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity178">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lingaraj Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lingaraj" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Perpetually, one of the most renowned temples in Bhubaneshwar, the Lingaraj temple happens to be one of the largest temples in the city. Built in the 7th century, the temple is religiously dedicated to Lord Shiva, and is the only one to display the phallic form of Lord Shiva, believed to have appeared naturally at this spot. The linga stands as high as 8 inches, unlike any other lingas that are known to exist in temples around India. The temple gives an insight into the Odissi style of architecture, built precariously with stone vaults that mount over the main structure. Following the rituals and cultures handed down over the years, the temple allows entry only to Hindus. During the festival of Mahashivratri, the entire temple precinct is adorned with flowers and lights to commemorate the occasion. While the temple receives a footfall of almost 6000 visitors on a daily basis, it can go up to 2 lakh during major events."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Udayagiri and Khandagiri Caves"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/udaygirikhandagiri" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="The name of the two caves, comes mainly from their location on the hills with the respective names. Located across a road, the two caves literally stand facing each other. They are believed to have been carved out as residential accommodation for Jain monks during the reign of King Kharavela. Udaygiri, popular as the sunrise hill, has 18 caves, while Khandagiri has 15. These caves mingle between religious and historical relevance in their time, with many of them depicting deities and idols of different gods. These caves, which date back to the first century, provide visible evidence and insight into the Jain aesthetics. More precisely, these caves depict epic court scenes, royal processions and leisure of the era, through motifs and engravings, which are stark and unique in every sense, which is why it is one of the most popular Places to visit in Bhubaneshwar."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rajarani Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rajarani"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="While historians have been unable to agree on a definite time during which this temple was constructed, it is believed to have been built between the 11th and 12th century, surprisingly, with no deity or idol at its centre. Even then, the temple garners tourist attraction for its notable sculptures, most of which are well preserved on its walls till date. On a close inspection, one can observe scenes of Lord Shiva and Goddess Parvati and their marriage along with several other depictions of nayikas, holding a tree branch, fondling a child, playing an instrument, taking off an anklet and more. Several erotic images in the high relief projections of the walls can also be observed."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

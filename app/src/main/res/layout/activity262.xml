@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity262">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tapkeshwar Mahadev Mandir, Dehradun"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tapkeshwar" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Tapkeshwar Temple in Dehradun, also known as Tapkeshwar Mahadev Temple, is one of the most famous temples dedicated to Shiva. Situated by the forest side, the main shivalinga at the temple is inside a natural cave. There are water drops from the ceiling of the cave, dropping down over the shivalinga statue."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Robber's Cave, Gucchupani"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/robberscave" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Robber's Cave, locally known as Gucchu Pani, is a river cave formed in the Himalayas, about 8 kilometres from Dehradun, Uttarakhand. This river cave is believed to be an abode of Lord Shiva and is very close to Sahasradhara or 'The Thousandfold Springs' in Uttarakhand. Its speciality is that river water flows out from the middle of the cave. The cave is a narrow gorge formed between a conglomerate limestone formation. It creates a feeling similar to being in a scene from a mystery movie - surrounded by dark limestone as streams gush in, echoing inside the cave. If not this, it definitely promises a sense of belongingness as Mother Nature slows you down, making you resonate with its mesmerising beauty. With extraordinary cold water underground springs, the cave cools down during the scorching-hot summer-afternoon. It is a perfect picnic spot amidst the natural beauty of Uttarakhand and must be visited at least once."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mindrolling Monastery"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mindrolling"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Founded in 1965, The Mindrolling Monastery houses the Ngagyur Nyingma College which is one of the largest Buddhist learning centers in India. The monastery is a re-established facility of the original Mindrolling Monastery and was established by Khochhen Rinpoche. The well-maintained gardens and a 60 meters high stupa and contains various rooms which are decorated with murals and house various relics and a 35 meters high statue of Lord Buddha in Gold."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tapovan Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tapovan"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Situated on the banks of the river Ganga, Tapovan is a holy place which is located at a distance of 5 km from the Dehradun city. Due to the history of the Ashram, devotees flock to the place frequently in the quest to find inner peace. All sorts of holy Hindu rituals are performed at the ashram. The ashram also conducts yoga courses for those interested ones. Surrounded by greenery visit to this temple is known for releasing the tension and providing a sense of satisfaction as well as peace of mind to the visitors. It is a very famous place to go for meditation and yoga. Interestingly, the word 'Tapovan' has been derived from two words- Tapasya which means rigour and van which means forest. Owing to its great weather all year, the place is visited by tourists at all times."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity202">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rambagh Palace, Jaipur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rambaghpalace" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Originally built in 1835, Rambagh Palace, has stepped gracefully through many royal transitions—from the home of the queen’s favourite handmaiden, to royal guesthouse and hunting lodge, and later as the residence of the Maharaja Sawai Man Singh II and his queen, Maharani Gayatri Devi. Today, this jewel in the Taj’s crown offers 78 stunningly restored grand luxury rooms and suites in Jaipur which were the chambers of the former Maharaja. The palace retains its elaborate splendour, extravagantly decorated with hand-carved marble ‘jalis’ or latticework, sandstone balustrades, cupolas and ‘chattris’ or cenotaphs, and elaborate Mughal Gardens. Within this most glorious of palaces showcasing the best of Rajasthan’s royal heritage, you also experience the best fine-dining restaurants in Jaipur. Enjoy a royal Indian feast at Suvarna Mahal, the former palace ballroom built in the 18th-century French style with huge crystal chandeliers. For multi-cuisine options, head to Rajput Room, our all-day-dining restaurant, or Verandah Café. Find Mediterranean delights at the lounge bar, Steam, or unwind in the sophisticated charm of the Polo Bar, with the trophies and memorabilia of the Jaipur polo team on display. Take your royal retreat a notch further by indulging in signature treatments at the Jiva Grande Spa, where we envelop you in ancient Indian wellness therapies. Harmonise your mind and body with yoga and meditation. With the exquisite palace offering a scenic backdrop, our large selection of indoor and outdoor venues along with the Sawai Man Mahal ideal for royal destination weddings and business events in Jaipur. Complemented by the craft of our master chefs and impeccable service, the palace hotel in Jaipur near Hawa Mahal offers the perfect package for once-in-a-lifetime celebrations. Over the years, it has played gracious host to several illustrious guests, such as Lord Louis Mountbatten, Prince Charles and Jacqueline Kennedy. We invite you to experience, like they have, the finest traditions of Rajput hospitality. Come, hear the stories of ‘The Jewel of Jaipur’."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Oberoi Rajvilas, Jaipur"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/oberoirajvilas" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Experience a sincerely warm welcome when you stay with us at our 5 star hotel in Jaipur: The Oberoi Rajvilas. Spread over 1,29,499 square metres of beautifully landscaped gardens, with traditional architecture, flaming mashaal torches and reflection pools. Exquisite accommodation, including luxury tents inspired by the era of Maharajas, fine restaurants serving authentic Rajasthani and international cuisines, specially curated romantic experiences for couples and our sincere hospitality. The perfect setting for the holiday of a lifetime at the best 5 star luxury hotel in Jaipur."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jai Mahal Palace, Jaipur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jaimahal"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Built in 1745, the Jai Mahal Palace is a stunning piece of Rajasthan’s heritage, a great example of Indo-Saracenic architecture set amidst 18 acres of landscaped Mughal gardens. Jai Mahal Palace, our 5 star hotel in Jaipur, has been the residence of three Prime Ministers of the princely state of Jaipur. Painstakingly restored and recently refurbished, it is now a luxury five-star Taj heritage hotel equipped with all modern-day comforts. The 94 rooms and six suites offer you unbeatable views of the city and palace gardens. Perfectly located downtown in the heart of the Pink City in Civil Lines, you are close to the main shopping areas and prime historical sites such as Amber Fort, HawaMahal and City Palace. The Jaipur International Airport is a mere 30 minutes away. While our five-star palace hotel in Jaipur gives you a taste of the best of Rajasthani heritage and culture, you also savour the best flavours at our two specialty restaurants. Cinnamon serves the most authentic Royal Indian cuisines from four princely states, while Giardino is Jaipur's finest contemporary Italian restaurant. Both please the palate of true food and wine connoisseurs from the world over. Our popular all-day-dining multi-cuisine restaurant Marble Arch offers a medley of flavours; and the fashionable and trendy Marigold Bar houses a selection of single malts and cigars alongside innovative cocktails. Nestled within the luxurious ambience of the palace are several signature experiences aimed at pampering you. Enjoy Bajot Private Dining, a truly regal and romantic dinner. Unwind with rejuvenating treatments and therapies at our Jiva Spa, or centre mind and body with yoga and meditation. Explore the palace history and its landscaped gardens to host fairy tale celebrations for up to 2,500 guests at the Palace Lawns. Entertain business clients and hold important meetings at the palace boardrooms, Silver Oak and Sterling, and banquet hall, Durbar Hall. Our concierge would be happy to arrange a city tour for your group, and all else your heart desires. Come, live like royalty at this heritage hotel in Jaipur."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

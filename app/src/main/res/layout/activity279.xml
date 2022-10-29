@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity279">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Batasia Loop"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/batasialoop" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="It is a mesmerizing toy train pathway that was brought into existence to reduce the elevation of the Darjeeling Himalayan Railway. Set amidst the lush green mountainside, Batasia Loop offers beautiful views of the valley and snowy abode of Mt. Kanchendzonga. When the toy train meanders its way through the loops of the track, everything about this place seems dreamy. Also, the surrounding tunnels, hill-locked valley and little shops in the area makes Batasia Loop one of the top places to visit in Darjeeling. It is recommended to visit the Loop after witnessing the sunrise at Tiger Hill. This is because the carpet of flowers that leads to Batasia Loop is quite splendorous, especially to the eyes that have witnessed the most beautiful sunrise ever. Additionally, the spiral railway track is a sight to behold for dreamers and artists. The entire scenery of the place often inspires people to create an art of their own."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Yiga Choeling Monastery"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yigachoeling" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Elevated at a height of approximately 8,000 feet Ghoom Monastery is one of the top places to see in Darjeeling. Also known as Yiga Choeling, it was established in 1850 by Lama Sherab Gyatso and is known to be the oldest Tibet Monastery of Darjeeling. It is best known for its 15-feet high statue of Maitreya Buddha which stands tall in the main hall of the Monastery. The place is also amongst the top tourist attractions in Darjeeling due to its massive collection of rare Buddhist manuscripts and records. Another attractive thing about the Monastery is its walls that are painted with depictions of Buddhism wisdom and Tibetan art. There is also a temple of Ma Kali on the hill top which is regularly visited by people to offer prayers and seek blessings."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Peace Pagoda, Darjeeling"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/peacepagoda"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="It is a Buddhist shrine which is a part of 30 similar structures located around the world. This white-coloured edifice is accentuated with gold painted sculptures, which are the highlight of the entire Pagoda. There are four avatars of Buddha located inside the building, including the famous Maitreya Buddha. This historic building was constructed between 1885 and 1985 by a Japanese Buddhist monk Nichidatsu Fuji and it continues to be one of the most famous places to visit in Darjeeling. It took about 36 months to finish the construction of the whole building. The main purpose of establishing this monument was to promote peace, unity, and goodwill amongst people who belong to different communities and religions. Apart from it, the place gives out peaceful and tranquil vibes as it is surrounded with snow-covered mountain peaks on all sides."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

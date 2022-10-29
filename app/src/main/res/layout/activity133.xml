@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity133">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Grand Hyatt Kochi Bolgatty"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/grandhyattkoc" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Sprawled across an expanse of 26 acres, Grand Hyatt Kochi Bolgatty is a luxury waterfront urban resort that features 264 opulent guest rooms including the suites and villas are perfectly outfitted for long-term guests. Other amenities include inventive dining destinations, 1,00,000 sp.ft. indoor &amp; outdoor event venues and luxurious houseboats, elevated service. The curated constellation of unique destination experiences, luxurious spa, fitness centre, pools, Kids' Playzone make it a perfect our long stays."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kochi Marriott Hotel"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kochimarriott" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Discover modern elegance at Kochi Marriott Hotel in Kerala, India. Located in the city center of this growing metropolis and part of the LuLu International Shopping Mall, our 5-star hotel offers refined comfort for every traveler. Relax in our stylish hotel rooms and suites, each with upscale amenities and 24-hour room service. Savor delicious international cuisine in our restaurants and lounges, get pampered at our spa, go for a swim in our outdoor pool, or work out in our 24-hour fitness center. Our expansive venues offer a sophisticated backdrop for meetings, social events and weddings, each complemented by our world-class catering and services. Nearby, the area's most compelling points of interest await, from Cherai Beach and Bolgatty Palace to business and medical centers such Aster Medcity, Amrita Hospital, Cochin International Airport, the convention center and Infopark. Whether staying with us for work or enjoying a getaway, we look forward to welcoming you to our luxury Kochi Marriott Hotel in India."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Le Méridien Kochi"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lemeridienkoc"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Style, comfort and sophistication blend effortlessly at Le Méridien Kochi. Our hotel is situated on a sprawling 18 acres, surrounded on each side by the calming Kochi backwaters. You'll feel right at home in one of our resort's rooms or suites featuring deluxe bedding, a flat-screen TV, a mini-fridge and a coffee maker. Business travelers to Kochi will appreciate an ergonomic workspace. We're Kerala's most celebrated destination for business and social events alike, with 60,000 square feet of exquisite banquet space, which can accommodate up to 5,000. Our serene on-site Ayurveda spa, two distinctive hotel restaurants, a chic bar, a fitness center and a pool ensures we are the preferred hotel for both tourists and business travelers. For those who wish to explore Kerala, our prime placement near the heart of the city offers easy access to popular tourist attractions, including Fort Kochi, Cherai Beach and Kumarakom. Allow Le Méridien Kochi to set a new standard in luxury."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

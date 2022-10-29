@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity189">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Taj Swarna, Amritsar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tajswarna" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Taj Swarna, Amritsar embodies the best of Punjab’s iconic history, art and culture. Fusing modern design with traditional elegance, our 5 star hotel in Amritsar is a stylish, contemporary world class hotel, basking in an enviable location that serves Amritsar and the adjoining cities of Jalandhar and Ludhiana. The hotel features spacious rooms, an array of dining options, sophisticated meeting facilities, Health Club, Jiva Spa and Salon and is close to the main shopping area of the city. Our hotel in Amritsar captures the spirit of the city in all its glory, embodying the history, art, culture and vibrancy of Punjab with contemporary flair. The hotel pays tribute to local arts and crafts while bringing forth a global perspective to its edifice and the experiences created within. Gastronomically speaking, Taj Swarna, Amritsar serves up a multitude of delicacies, flavours and aromas. From a sprawling all day multi-cuisine diner to a speciality Chinese restaurant and an exclusive bar that houses exotic spirits from across the globe, palate pleasure seekers are in for a sensorial symphony. All our eateries are conveniently located at the lobby level with a charming alfresco area adjoined. The hotel is optimized for events and offers a massive 650 sq. mt. banqueting area accompanied by lush lawns. From award functions and corporate get-togethers to weddings, birthdays and anniversaries, our venues will turn your events into milestones. The hotel is also optimized for differently abled guests with wheelchair accessible elevators, trained staff, parking and more. Health and Wellness facilities abound at Taj Swarna, Amritsar. Right from Jiva spa, which offers signature wellness experiences to a fitness centre, sports trainers, a swimming pool, a Jacuzzi and a steam bath. A stay here will help you rediscover the joys of life and reboot your mind, body and soul. Welcome to Taj Swarna, Amritsar, where your authentic Amritsar experience begins!"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hyatt Regency Amritsar"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hyattregencyamri" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Hyatt Regency Amritsar is a 5-star Deluxe hotel of the city with an inventory of 248 rooms, located at 4.2 kms from the world-renowned Golden Temple. Hyatt Regency Amritsar is a 30 minutes’ drive from the Guru Ram Das International Airport. The hotel is also right adjacent to the Mall of Amritsar on GT road. The location of the hotel makes it the most convenient for leisure travellers across."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Fairfield by Marriott Amritsar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fairfield"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Experience a winning combination of contemporary comfort and award-winning service at Fairfield by Marriott Amritsar. Ideally located near the railway station, the airport and landmarks including the Golden Temple, Wagah Border and Jallianwala Bagh, our 4-star hotel is well-suited to both business and leisure travel in Punjab, India. Spacious rooms and suites offer open layouts and deluxe bedding with allergy-friendly sheets, high-speed Wi-Fi, flat-screen TVs and mini-fridges. Reserve our Presidential Suite to enjoy a separate dining and living area, as well as two bathrooms. Other amenities for your Amritsar visit include a fully equipped fitness center and a scenic outdoor pool. Enjoy fresh, seasonal cuisine at our hotel's restaurant or relax with cocktails, beer, wine and nibbles at our bar. Those planning events in the area can make use of our hotel's versatile venues, which include a stylish ballroom and al fresco poolside space. The best of the city awaits you at Fairfield by Marriott Amritsar, India."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

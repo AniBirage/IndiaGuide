@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity209">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jaisalmer Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jaisalmerfort" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Amongst all the places to see in Jaisalmer, the Jaisalmer Fort is the largest. It is in fact, one of the largest forts around the world. Located on the Tirukuta Hill, this fort was built by Rao Jaisal, one of the mightiest rulers of Jaislamer. Due to its location at the golden stretches of the Thar Desert, this fort is also known as the ‘Sonar Quila’ or the ‘Golden Fort’. Over the past few centuries, this fort has witnessed several battles and has successfully endured its pride and glory of being one of the magnificent forts in Rajasthan. However, kings and battles are no more persistent and can be found on the pages of history books, leaving behind their immortal legacy and bonding with this fort. In addition to the beguiling beauty of the fort, it is also bejeweled with several astounding monuments within it premises. Raj Mahal, Laxminath Shrine, Merchant Havelis, the ornate Jain temples and the gateways are some of the major attractions of this fort. The walls of this 250 feet tall fort are made of crenelated sandstone and they soar 30 feet high from the ground. The golden yellow reflections of these walls, which can be seen from a distance, have gained it the title ‘Golden Fort’. Masking the fort in a yellowish fog, the fort’s main entrance is a sight to behold. Elevated to about sixty feet, the entrance is made from the finest quality rosewood. Inside the fort, there are stables and fortresses of erstwhile kings of the Rajputana pride."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gadisar Lake"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gadisarlake" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Maharwal Gadsi Singh, the then Maharaja of Jaisalmer constructed this lake in 1400 AD. The lake was originally built as a conservation reservoir for rainwater harvesting; during the ancient times, and it happened to be one of the major water sources for the entire city. Named after the Maharaja, this reservoir has now earned the fame of being the most popular places to visit in Jaisalmer, and is visited by people from various corners of the world. Located on the outskirts of Jaisalmer, it is an idyllic getaway to seek peace and tranquillity of mind, away from the bustling and chaotic city life. Fringed with several temples and shrines, the lake also serves as an ideal place for the birdwatchers. During the winters, it is flocked by different species of exotic and migratory birds and thus it attracts a number of birdwatchers and nature photographers. Shallow ghats, intricately carved cenotaphs and delightful gardens around this reservoir add to its splendid beauty, and are also one of the main reasons; the lakeside has become one of the popular picnic spots in Jaisalmer."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Patwon Ki Haveli"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/patwonkihaveli"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="An architectural marvel in the streets of the city and marked by intricate carving and murals is what Patwon ki Haveli is. Built in the 19th century, this Patwon ki Haveli is a combination of 5 different havelis in one single premise. It consists of a museum having rare artifacts, furniture work, miniatures, mirror-work and a large collection of paintings and interestingly, used to be a hotspot for travelers all around the world. The haveli is also known for residences of merchants who sold gold and silver items, amongst which some threads were used in ornamental dresses. It houses the office of Archaeological Survey of India today, managed by the government as a whole &amp; makes it as one of the best places to visit in Jaisalmer."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Salam Singh Ki Haweli(Moti Mahal)"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/salimsinghhaveli"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This haveli is one of the popular tourist attractions in Jaisalmer. Salim Singh-ki Haveli is built on an older structure. This building was constructed during the early part of the eighteenth century. It was the residence of the Mehta family, one of the influential families in Jaisalmer during the early 18th century. Salim Singh, the then Prime Minister of Jaisalmer commissioned the building of this haveli. Having a unique architectural identity, the haveli’s roof is based on the peacock’s physical form and it lies within the vicinity of the Jaisalmer fort. In the background you can see high hills overlooking the mansion. It is believed that two extra floors were built in this building, but was apparently disapproved by the Maharaja and were eventually eradicated down. But there seems to be no indication that these floors existed. The gateways of this building are flanked by a pair of tuskers. Even though the tuskers are made of sandstone, the perfection of their size, shape and carving can make you believe them to be real!"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

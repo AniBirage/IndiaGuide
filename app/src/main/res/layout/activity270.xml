@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity270">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Taj Rishikesh Resort &amp; Spa"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tajrishi" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Experience the quintessential life by The River. Blissful &amp; blessed is Taj Rishikesh Resort and Spa, Uttarakhand, our 5 Star deluxe resort in Rishikesh which sits by the banks of the majestic Ganga and is placed right in the foothills of the Himalayas. 30 kilometres away from the world renowned spiritual &amp; yoga capital of Rishikesh, in an introverted gentle village called Singthali, this nest of utter, gentle calm is where life takes a restful pause to meditate on things far more profound than the worldly. This is an address that is other-worldly all right! Welcome to a luxury hideaway by the Ganges called Taj Rishikesh. Upon reaching your destination, as your vehicle gently rolls down the hillside, the resort in hiding till then, comes into view. You notice its terraced topography as it meanders 300 feet, right down to the pebbled banks of the Ganges, while all around, the mighty Shivalik Himalayan mountains play watchful guardian. The retreat serves as a gateway location to the Char Dham pilgrimage sites of Kedarnath, Badrinath and also Hemkunt Sahib. For pilgrims looking for five-star comfort, this will be the last point of luxury on their way further into the mountains. This 50,585 sq mtr luxury resort in Rishikesh with its eco-friendly habitat, is designed to not intrude on its premises. It creates a series of alternating spatial experiences that compound its organic feel. The public areas of the resort, its private residences and meadowed terraces are singularly geared to amplify the experience of being one with the Ganges and the Himalayas. Contemporary and yet endowed with rustic materials and provincial flourishes, the resort is an architectural tribute to the Garhwal region and the outer Himalayas. The interiors interpret the vernacular highlights of the region and are infused liberally with local materials found in the nearby villages. The air is happy and relaxed while thoughtful spaces encourage community interaction. Each of the resort’s experiences and rituals across dining, wellness and discovery draw from the values of the region and the Ganges. Served at all times, with an understated simplicity so infectious that it unclutters and clarifies the senses so beautifully."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Anand Kashi by the Ganges, Rishikesh – IHCL SeleQtions"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/anandkashi" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="The erstwhile summer residence of the Maharaja of Tehri Garhwal, Anand Kashi By The Ganges, Rishikesh - IHCL SeleQtions, is a hidden gem tucked away in the lush valley of the Himalayan mountains. Located by one of the most auspicious bends of the Ganges, it is resplendent with idyllic charm, mystical stories, and transcendent tranquility. Set in the heart of the holy land of Uttarakhand, our serene hotel is woven in a rich tapestry of ancient folklore, untouched meadows, and sparkling springs. Cocooned by a rich expanse of lush fruit orchards and endless views of the ethereal Ganges, the property enfolds you with the promise of peace and purity. The hotel showcases an aesthetic play of traditional Garhwali architecture adorned by contemporary embellishments in its decor. The accommodation is conceptualized in the Vedic Panchamahabhuta philosophy – touch (Sparsh), taste (Kesari), sight (Dhrishti), sound (Ujala) and scent (Mehek) – with each room carefully crafted to indulge your senses. Wake up to the sun’s dance on the river’s surface or breathe in the abundant mountain air as you de-stress in our spacious rooms. Decorated with rich hues, subtle tones, and delicate floral designs, your stay is complemented by designer luxury essentials and generous vanity counters. Our all-day diner, Ana Rasa brings you a curated dining experience with global cuisines along with a slice of fresh organic produce from our very own orchards. Enjoy a starry night at our rooftop bar, Amrit Tara as your sip on a range of crafted cocktails and appetizing bites or have a relaxed meal at the splendid Ganga deck. Our flexible conference rooms are perfectly equipped for intimate business meetings and conferences. Unwind as you take a leisurely swim in the infinity pool - shaped to the curvature of the Ganges - or surrender to the gentle strokes of wellness at our first-of-its-kind intimate spa, Amrit Kashi. Soak in the spiritual healing energy of Rishikesh at the hotel’s Shiv Mandir or let your soul strum to the rhythm of the Ganga Aarti performed by our resident priests. Seize an opportunity to imbibe in the heavenly symphony of Rishikesh by taking a dip in the sacred waters at our private beach. With a skilled concierge and an array of bespoke experiences, Anand Kashi By The Ganges, Rishikesh - IHCL SeleQtions welcomes you to a realm of comfort, designed to delight."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Roseate Ganges Rishikesh"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/roseateganga"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="One of the best spa resorts in Rishikesh, it redefines luxury, boasting of impeccable design, architecture and services that ensure an unforgettable experience in the serene and sylvan setting of the Garhwal Himalaya foothills. Located in Shivpuri, the luxury retreat overlooking the Ganges glorifies the yoga capital of the world, Rishikesh. The Roseate Ganges is a 45-minute drive from Jolly Grant Airport, Dehradun which is well connected by multiple flights to and from various cities across India. The exquisite retreat in the Himalayas propounds 17 well-appointed villas, each opening to a private balcony overlooking the valley and the forest. The Roseate Ganges also has a temperature-controlled infinity swimming pool overlooking the surrounding valley."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

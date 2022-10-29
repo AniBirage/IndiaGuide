@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity268">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lakshman Jhula"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/laxmanjhularishikesh" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Lakshman Jhula happens to be one of the famous hanging bridges across the holy river Ganga. The jhula is a link in between two important villages in Rishikesh. It connects the Tapovan village in Tehri Garhwal and Jonk village in Pauri Garhwal. The bridge is made up of iron and it is almost 450 feet long, which is suspended at an elevation of almost 70 feet above the river. Lakshman Jhula has been one of the centres for tourist attraction since its inception for its amazing association of the Hindu Mythology. As per the popular Hindu mythology, Ramayana, it is believed that Lord Ram and his brother Lakshman had crossed the Ganga River at the same place, where the bridge has been built. The bridge was opened for public in the year 1929.  In recent times, in order to boost the tourist footfall, many other developments have been carried out around the famous Lakshman Jhula. Tourists now love to spend a considerable amount of time in these places in the course of their Rishikesh Trip."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Parmarth Niketan Ashram"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parmarth" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Parmarth Niketan Ashram, located in the lap of the verdant Himalayas, along the banks of the Ganges, is one of the most popular ashrams in Rishikesh. The ashram specialises in traditional ayurvedic practice treatment, yoga, meditation and various other natural healing techniques. The ashram was founded in 1942 by Pujya Swami Shukdevanandji Maharaj. With over 1000 rooms, lush gardens, clean and pure ambience, the ashram provides a calm and serene refuge to devotees and patients alike. The ashram keeps its doors open for people of all religions, gender, caste, class and nationalities. The ashram is the home to a 14-feet statue of Lord Shiva that has been placed along the riverbank. The divine or holy tree, Kalpavriksha, also boosts the sense of spirituality on the ashram campus. Various activities of the ashram include different healing yogas, universal prayers and meditation classes, kirtan, daily satsang, spiritual talks and seminars among other events. The ashram with its various activities aims to help people connect with their inner self and rejuvenate their senses. During your stay at the ashram, you can feel being associated with the peaceful surrounding of the ashram as well as nature. The place has hosted hundreds of holy men, sages and yogis among others from across the globe. Parmarth Niketan Ashram has its own private ghat where Ganga Aarti is offered every evening. This is a blissful sight to witness if you are spending a day or two at the ashram."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Triveni Ghat"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trivenighat"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The convergence of three great rivers of Ganges, Yamuna and the Saraswati defines the Triveni Ghat. Nestled in the lap of Himalayas, Triveni Ghat is the most sacrosanct bathing spot and considered the holiest spot in Rishikesh. Triveni Ghat, all year round is inundated with people. It is believed that when one takes a dip in the Ghat, it washes away all the sins of the person resulting in a pure soul. Pilgrims from all over the globe visit here to take a dip in the holy waters to reach divine salvation. When you set your eyes on the Ghat, the holy chants, the fragrance of flowers, the light of the earthen lamps and the feeling of peace will envelop you. Maha-Arti is performed here every day in the morning and night. The arti has its relevance and is said to hold special significance to those who attend it. Despite people swarming in great numbers, Maha-Arti is attended both the times with much enthusiasm and devotion throughout the year. Devotees also release small oil lamps on boats made of big leaves and release them in the holy water. There are other ceremonies like 'Pindha Daan' considered very important for ancestral salvation performed here. Right across the Ghat, is a flourishing market that satiates the needs of pilgrims for religious artifacts and objects of worship. The market also has souvenirs and items of daily need which is why it is always crowded. You can also sit by the Ghat and enjoy a moment of much-needed peace and serenity. Feeding the fish is also an engaging and satisfying activity while sitting here. Rishikesh is full of beauties and Triveni Ghat is satisfying not just as a pilgrim locale but also as a place where you can find salvation."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shri Ram Jhula"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ramjhula"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Ram Jhula is one of the most iconic places in Rishikesh and if you are planning a pilgrimage to the city, or just visiting for a holiday, you must stop by this iconic bridge. It is a suspension bridge, built entirely out of iron and the length of the bridge is around 450 feet. It was constructed in the year 1986, by the PWD. The bridge is located over the holy Ganga river and it connects Sivananda Nagar in Muni Ki Reti, in the district of Tehri Garhwal in the west to Swargashram in the district of Pauri Garhwal, in the east. This bridge can be found in the state of Uttarakhand, approximately 3 kilometres away from the main town of Rishikesh. It is a comfortable walking distance from Rishikesh, and if you like long walks in the midst of stunning scenery then you can walk the length of the bridge as well. People can also traverse the bridge with bikes or cycles. A number of holy ashrams and Hindu religious centres and temples can be found lining the side of the bridge. These ashrams encompass the true essence of Rishikesh, with their peace, hospitality and piety. Another well-known bridge in the area is the Lakshman Jhula, which is lengthier than Ram Jhula and is situated 2 kilometers upriver, on the banks of the Ganga. One of the most memorable experiences you can enjoy at the Ram Jhula is overlooking the holy city of Rishikesh from the bridge itself in all its natural and historical glory, surrounded by the river and the mighty mountains."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gita Bhawan, Rishikesh"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gitabhawan"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Another not to be missed places to visit in Rishikesh, Gita Bhawan is also located on the banks of the Ganga River and is adorned by the enchanting charm of the Himalayas. Comprising of a large complex, it serves as an institute where a devotee can learn about Hinduism to a large extent along with participating in many religious and cultural events as well. The institute offers free food, stay and education to the pilgrims. People living within the bhawan participates in daily prayers and sadhana along with mediation and other necessary activities. Visitors to Gita Bhawan can also participate in all the activities and can also enjoy pure-vegetarian meals and other facilities at a minimal price. It also offers free boat rides and has a dispensary that offers free ayurvedic treatments and medicines made according to the religious scriptures with the holy water from the Ganges. With ample of meditation places and bathing ghats, it offers a pleasant and soothing ambience to indulge in Ganga dip and other religious activities."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Beatles Ashram, Rishikesh"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/thebeatles"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Formerly known as Chaurasi Kutia, Beatles Ashram happens to be a popular ashram located at Rishikesh in Uttarakhand. The place received a lot of hype and achieved wide recognition after the Beatles band of Liverpool came to stay there in the year 1986. The members of the band practiced meditation and composed many good songs in this place. In the later period, the ashram was left abandoned but was reopened for tourists in the year 2015. At present, the Beatles Ashram is visited by locals as well as tourists, out of which most of the travelers are Beatles band fans. The place usually attracts history buffs, experience seekers, serenity and peace seekers, nature lovers, photo fanatics, and meditation enthusiasts. The major attractions of the ashram include its stunning dome-shaped construction, amazing graffiti works, and the beautiful picture of the members of the Beatles band painted in one of the interior walls of Ved Bhavan. Other interesting things that can be seen here are the mysterious writings done on the walls of Siddhi Bhavan and Anand Bhavan and the beautifully designed meditation chambers of Chaurasi Kutia. The Beatles Ashram is believed to have a unique energy and inspiring vibe of its own that makes visitors realize the real power and value of spirituality. The relaxing and rejuvenating environment of the place tranquilizes the body from within and refreshes the mind, filling you up with positivity. Surrounded by other serene attractions of the city, this place is totally worth visiting when you’re on a trip to the country’s Yoga Capital, Rishikesh."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Divine Life Society (Sivananda Ashram)"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/divinelife"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Located close to the Ram Jhula in Rishikesh, Sivananda Ashram is renowned as the next heaven for the inhabitants of the Blue Planet. Since ages, this heavenly place has been guiding its visitors with spiritual happiness, delight and peace. For those who are entirely new to this place, Sivananda Ashram is a serene abode dedicated to the great Saint Swami Sivananda. The credit to its present-day maintenance and administration goes to a committee called Divine Life Society. This place has been amongst the favourite spots for the visitors who want to indulge in quality meditation. The calm and serene atmosphere at Sivananda Ashram makes it a great yoga and meditation centre. Adjacent to it, flows the river of the Ganga Vatika – The Ganges which amplifies the sanctity of the region. The presence of the mighty Ganges here helps in maintaining the connections of both the past and present intact. Besides, it gives rise to a peaceful environment with the lush green valley in the backdrop. Plan your visit on any day at the Sivananda Ashram, and you will be surprised with the feasts, satsangs, and the yoga sessions that are scheduled there. If you are keen on participating in any of these events there, Sivananda Ashram offers both yoga and meditation classes. Besides this, Sivananda Ashram is also engaged in the publications of various pamphlets, books and magazines. This place is truly an ideal spot for all yoga lovers to indulge in their passion for yoga and embrace their spiritual awakening."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

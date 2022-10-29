@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity183">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pramod Convention and Club Resort"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pramodconventionclub" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Pramod Hotels &amp; Resorts was conceptualized and brought into fruition in 2011 in an effort to provide Cuttack with its first riverside resort. Nestled on the banks of the Mahanadi, the property was born out of a vision to provide luxurious stays to guests travelling to Cuttack and a superb hospitality experience for hosting events. Today, Pramod Convention and Club Resort is a destination of choice for events, stays and dining experiences. In 2015, Pramod Convention and Beach Resort, Puri was opened to guests. In addition to Pramod's signature hospitality, our Kings Court rooms, which feature direct access to the swimming pool, are a highlight of the property. Soon after, Odisha's only collection of luxury suites - Pramod House of Classics was unveiled in 2017. With seven unique themes, each suite is a gateway to a different world. With butler service, a private theatre and a chef-managed restaurant, the property provide bespoke experiences to guests."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Grand Residency Hotel"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/grandresidency" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="GRAND RESIDENCY is travelers delight in the city of Cuttack in Odisha. Being the oldest city in Odisha. Cuttack is home to the best Medical College, British era Colleges, World Class Cricket Stadium and many more. With 23 Rooms to Accommodate and 3 Big Halls for your Conference, Seminar, Wedding Events and a Roof Top-Terrace Wedding Space. We have The Lounge Bar called JALSA, A classy decent ambience serving cocktails, mocktails and IMFL."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HOTEL CRYSTAL CROWN"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotelcrystalcrown"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Crystal Crown is a beautiful destination for organizing your wedding ceremonies. Located in Bhubaneswar, the ambiance will definitely steal your gaze and make you fixated at their interior decor and infrastructure. Want a perfect, dreamy wedding? Book the venue and cherish your memories forever. Crystal Crown is an enchanting wedding venue, which will make you crave more. The venue has multiple banquet halls that are extravagant to fill all your guests and treat them with delicacies of all sorts. Apart from this, you can also book other ceremonies or events at the venue. A team of dedicated, passionate and hardworking staff, which strive to fulfill their customers needs is always available at your disposal."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

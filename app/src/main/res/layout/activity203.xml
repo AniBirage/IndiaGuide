@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity203">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mehrangarh Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mehrangarhfort" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Undoubtedly, Mehrangarh Fort is the best tourist place in Jodhpur city, as it is the most explored one by the tourists that visit Jodhpur. It hence tops the list of places to see in Jodhpur. This royal abode, earlier was one of the most majestic palaces in this city and is now turned into a museum that depicts the rich culture and heritage of Jodhpur. It is one among the largest forts in the country and accommodates several mahals within it.This mighty fort is considered to be a work of architectural brilliance and hence is the most visited place in Jodhpur. The intricacies of the fort and architectural splendour is enough to engage tourists that visit this fort. It is located on a hill top which is about 410 feet above the city and gives a majestic view of the Blue City as well. The fort is symbolic of the glorious princely era of Rajasthan and the rich culture of Jodhpur city. This tourist destination, hence is one of the major attractions in the city of Jodhpur."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Umaid Bhawan Palace"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/umaidbhawan" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Umaid Bhawan Palace is one of the last constructed places in India. It is hence also popular for its designs and architecture, which is of great attraction to the tourists of Jodhpur. Located within the city premises, this palace is a mirror to the princely era of Jodhpur. Currently, Umaid Bhavan Palace is divided into three areas, one of which is still owned by the royal family of Jodhpur city.Among the other two, one is converted to a heritage hotel which is known for providing a rich royal experience to its visitors; the other is a museum that showcases the art pieces of the royal age. The palace and its surroundings are considered to be brilliantly constructed. Watching the details of this masterpiece is the best thing to do here. This place should hence definitely qualify to every tourist’s list of places to visit in Jodhpur."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ghanta Ghar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ghantaghar"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Ghanta Ghar, also known as the clock tower is an important and most popular landmark in the Blue City or Sun City of India. Jodhpur places to visit cannot finish without ticking off this mighty landmark located just next to Sardar Market within the city premises. The tall colossal tower was built by Maharaja Sardar Singh during his rule between 1880 and 1911. This place then turned out to become the most popular landmark in the city. The close proximity to one of the famous markets in Jodhpur, adds to the tourist value of this place.One can indulge in shopping and witnessing the charm of the city after sunset at this place. It is a great way to explore the regular life of the people of Jodhpur. At night the Clock Tower is lit up with beautiful lights and looks even more amazing and enthrals tourists with its charm. Buying artefacts and local ethnic artistic things from the nearby Sardar Market and trying out the famous chat delicacies is the best thing to do at this spot. The splendour of this landmark surely makes it to the top of ‘places to visit in Jodhpur’ list."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kaylana Lake"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kaylanalake"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Kaylana Lake is yet another artificial lake located in the west of Jodhpur city. It is considered to be one of the most visited lake destinations in Rajasthan state. This lake is spread over a land of 84 sq. kilometres and is a picturesque tourist place in Jodhpur every tourist must explore. This lake is surrounded with lush greens and is home for some of the exotic species of birds. Birdwatching is one of the best activities one can engage in at this location. Constructed by Pratap Singh during the princely era of Jodhpur, the surroundings of the lake is also known for being equipped with wild bears and other animals. It was also one of the hunting grounds for the royalty back then. This hence makes the place much more charming and exuberant and is definitely worth a visit while in Jodhpur city. This birdwatcher’s paradise is also popular for giving the best view of sunrise and sunset in the city and exploring them in amidst the charm of nature in Kaylana Lake is undoubtedly a blissful experience and also famous places to see in Jodhpur."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity158">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shaniwar Wada"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shaniwarwada" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Shaniwar Wada is a historical fortification, built in 1732, it was the great seat of the Peshwas of the Maratha Empire until 1818. Following the rise of the Maratha Empire, the palace became the center of Indian politics in the 18th century."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Aga Khan Palace"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/agakhan" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="The Aga Khan Palace was built by Sultan Muhammed Shah Aga Khan III in the city of Pune, India. The Aga Khan Palace is a majestic building. The palace is closely linked to the Indian freedom movement as it served as a prison for Mahatma Gandhi, his wife Kasturba Gandhi, his secretary Mahadev Desai and Sarojini Naidu."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sinhagad Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sinhagad"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Sinhagad is a hill fortress located at around 49 km southwest of the city. Previously known as Kondhana, the fort had been the site of many battles, most notably the Battle of Sinhagad in 1670. The Sinhagad (Lion's Fort) was strategically built to provide natural protection due to its very steep slope . The walls and bastions were constructed only at key places. There are two gates to enter the fort, the Kalyan Darwaza and Pune Darwaza, positioned at the south-east and northeast ends."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dagdusheth Halwai Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dagdusheth"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="A famous Ganesha temple in Pune is Shreemath Dagdusheth Halwai Temple which is a major attraction in Maharashtra. The temple is visited by thousands of pilgrims every year. The annual ten-day celebrations named Ganeshotsav is the main festival conducted at the temple when celebrities and ministers arrive to pay tribute to the Lord. The main idol is insured for a sum of Rs.10 million and it is one of the very famous places in Pune and one of the amazing places to visit in Pune with family. Dagadusheth Halwai was the founder of the temple who was a trader, businessman and a sweet maker. He was from Karnataka and settled in Pune long ago. But his son died due to an epidemic and afterwards he and his wife fell into steep depression and to heal themselves, they were advised to build a Ganesh temple by their Guru Shri Madhavnath Maharaj. The construction of the temple was finished in1893. The great leader Lokmanya Tilak was a contemporary of Dagdusheth and a close friend of him. He had the idea of celebrating Ganesh festival at the temple and then onwards, it became an epoch-making event. The beautiful temple has Jay and Vijay, the two sentinels made of marble attracts the millions of hearts coming to visit the temple. The temple was constructed very simply so that the idol of Ganesha can be seen from outside. The idol is huge with 7.5 feet height and 4 feet width. It was made more beautiful by adding nearly 8 kilogrammes of gold. Devotees of the temple offered money and gold regularly and heaps of coconuts are also a special offer done by the people."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pune Okayama Friendship Garden"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/okayama"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Tucked away from the bustling city, lies a surreal place in Pune, Pune Okayama Friendship Garden that looks refreshingly green everywhere around as far as your eyes can see! Spread across 10 acres of land, This garden is inspired by a 300-year-old Japanese Korakuen garden that was developed by Ikeda Royal family in Okayama, Japan. This is the biggest Japanese garden in the world outside Japan and has also been featured in many Bollywood movies. The garden has become a key attraction in Pune and is also referred to as Pu. La. Deshpande Garden, in fond memory of Pu. La. Deshpande, a renowned Marathi writer. The Japanese believe that 'to have something, there also has to be nothing'. This Yin and Yang philosophy of having light and darkness, stillness and motion, soft and hard, warm and cold is depicted in the garden through the composition of natural elements like fire, harmony, line, spirit, world, and water. The Japanese consider gardens as spiritual places to meditate and seek one’s inner self and the Pune Okayama Garden stands perfectly in line with this ideology. The verdant lawns and the soothing ambience revitalizes one’s senses and kindles their spiritual call. One can experience unexplained happiness and contentment just as they step into the garden! The garden has beautiful natural landscapes and man-made add-ons that make it look so spectacular. The canal running through the garden is filled with colourful fish and the moon bridge over the canal is a great location to spot the bright orange coloured fish swimming around. The attractions within the garden include a waterfall, a pond, lanterns, artificial hillocks, and a forest. The landscape of the garden is diverse and as one walks through the serene pathways listening to the rumbling sound of the stream and the chirping of the birds, one can witness the change in the garden landscape. There are Pergolas around this huge garden, where one can sit, relax, and enjoy the tranquillity engulfing this place. The park is maintained extremely well and visitors are not allowed to picnic or stroll through the lawn. The tall, thick trees and the numerous varieties of flowering plants at Pune Okayama Garden are undeniably an exhilarating respite to the sore eyes!"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shinde Chhatri"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shinde"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Shinde Chhatri is a memorial dedicated to the 18th-century military leader Mahadji Shinde and it is one of the main attraction and a well-known Pune places to visit . Mahadji Shinde served as the commander in chief of the Maratha army under the rule of Peshwas from 1760 to 1780. The majestic representative of the Maratha rule houses a hall that marks the spot of Mahadji Shinde’s cremation on 12th February 1794.  During 1794, the memorial had only one temple dedicated to Lord Shiva built by Mahadji Shinde himself and in 1965 only, a Samadhi was constructed outside the sanctum of the Shiva temple. Madhavrao Scindia was responsible for the construction of the complex along with the memorial. The architecture of the building is the main attraction as it resembles the architectural styles used in Rajasthan along with a touch of the Anglo style which is also a reason that it is counted in best Pune tourist places. It shows a picturesque blending of two different cultures.The beauty of the building is heightened due to the presence of fine, alluring carvings. The carvings and the idols of the saints of the Shiva temple are made of yellow stone and the floor of the sanctum sanctorum is constructed using black stone. The hall inside the structure is decorated beautifully with paintings and photographs of members of Shinde family. But it began to accommodate bad conditions as years passed but currently, its glory being recovered by painting the walls and restoring the old beauty to it. The historical identity and the architectural brilliance played on the walls of the building make it a famous Pune visiting place."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

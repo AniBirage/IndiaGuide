@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity301">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vaishno Devi Mandir"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vaishno" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="The Vaishno Devi Temple also notably known as Shri Mata Vaishno Devi Temple is a major, divine and widely revered Hindu temple dedicated to Vaishno Devi and is located in Katra, Reasi on the slopes of Trikuta Hills within the union territory of Jammu &amp; Kashmir in India. The temple is recognized as one of the 51 Maha (major) Shakti Peethas dedicated to Durga also known as Parvati or Sati, who is worshipped as Vaishno Devi. Having the principal aspect of Durga, hindus consider Vaishno Devi as an incarnation of Kali, Saraswati and Lakshmi."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amar Mahal Museum and Library"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/amarmahal" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="The Amar Mahal Palace is a palace in Jammu, in the Indian erstwhile Kingdom of Jammu and Kashmir, India. The palace has now been converted into a museum. Commissioned by Maharaja Amar Singh, a Dogra king, the palace was built in the nineteenth century by a French architect on the lines of a French Chateau. The palace was donated to the Hari-Tara Charitable Trust by Karan Singh for use as a museum. It has many exhibits including a golden throne weighing 120kg, a Pahari miniature, Kangra miniature paintings, a library of 25,000 antique books, many rare art collections, and a large collection of portraits of the royal family. The palace was the last official residence of the Dogra dynasty and the last king of the kingdom Maharaja Hari Singh."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bahu Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bahufort"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The Bahu Fort is a historic fort in the city of Jammu, Jammu and Kashmir. Constructed on the banks on Tawi River, the ancient fort is believed to have been constructed by Bahu Lochan-brother of the traditional founder of Jammu, Jambu Lochan. It is believed that the first renovation of this fort was undertaken during Dogra Rule in 18th century. The fort is a religious place, and within its precincts has a temple dedicated to the Hindu goddess Kali. The temple is known locally as the 'Bawe Wali Mata temple'."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shree Ranbireshwar Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ranbir"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The biggest Shiva temple in north India, Ranbireshwar Temple is one of the most famous shrines of Shiva in Jammu, Ranbireshwar Temple was built by Maharaja Ranbir Singh in 1883. In the temple is enshrined an eight feet long central 'Lingam'. It also enshrines twelve Shiva 'Lingams made out of crystal measuring from 15 cms to 38 cms. It was under the built of the Dogra rulers; also enshrining 12 shivlings in crystal, measuring 15cm to 38cm. Galleries with 1.25 lakh `bona lingam` brought from Narmada River, can be witnessed on stone slabs inside the temple. There are also mammoth images of Ganesha, Kartikeya and Nandi Bull."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mubarak Mandi Heritage Complex"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mubarak"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Mubarak Mandi is a palace in Jammu, India. The palace was the royal residence of the maharaja of Jammu and Kashmir from the Dogra dynasty. It was their main seat till 1925 when maharaja Hari Singh moved to the Hari Niwas Palace in the northern part of Jammu. The palace is located in the heart of the old walled city of Jammu and overlooks the Tawi river."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity293">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vanganga Garden"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vangangalake" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Vanganga Garden is one of the best places to visit in Silvassa if you wish to spend some time in the lap of nature. It is stretched across an area of 7.5 hectares and has paved walkways for running in different directions. Different varieties of trees and plants are clustered in the garden area that makes it look like a mini forest. You can also spot small fountains in the garden that look extremely spellbinding in the evening due to the lighting arrangement. It also has a beautiful lake that is framed with a jogging track and a few restaurants for recreational purposes. You can enjoy boating on the lake, or you can even head to the garden to have a picnic or family outing."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jampore Beach"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jamporebeach" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Revered as on one of the cleanest beaches in Daman, Jampore Beach allures the visitors with its tranquil environment and serene views. Its mud colored blackish water makes it entirely different from the other beaches in the world. This beach is far away from the hustle and bustle of the city making it a great spot to relax and unwind. You can also enjoy thrilling water sports activities here like scuba diving and kayaking during summers. It also has some of the best eating joints and beach shacks where you can enjoy refreshing drinks and scrumptious food."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Diu Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diufort"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The Fortress is a landmark in Diu and is one of the ‘Seven Wonders of Portuguese in the World’. The Portuguese built it in the year 1535 with an addition made in 1541 as a defensive fortification in Diu and is located on the west coast of India. It is this enormous sea-facing fort and has two moats, a lighthouse which is the highest point of the Island and a jetty that is still operational. This lighthouse is easy to climb and provides an eye-catching view of the whole place. The fort has cannonballs littered all around and has a low wall with few cannons and some other attractions. Hence the Diu Fort makes for one of the places to visit in Diu."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Our Lady of Piety Church"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pietychurch"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This iconic Catholic church is one of the most beautiful edifices that is known for its breathtaking architecture. It reminds the visitors of the tales of the bygone era and is revered to be the central spot for devotion. The church was opened for public visit on 27th October 1889, and it is reckoned to be one of the oldest churches in Silvassa. This church has stained glass, wooden pews, window panes, wooden high altar and Mural of the Last Supper. The church was damaged due to an earthquake in 1912 and was closed down for renovation, but it was again opened for a public visit in June 1924. This stunning structure of divinity and peace remains steadfast even today, which is a declaration of the engineering aptitudes during that era."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bom Jesus Church"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bomchurch"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This is a magnificent Roman Catholic cathedral that is a center of devotion for the Christians as well as the followers of other religions. The magnificent altarpieces and the intricately carved doorways seem to turn this cathedral into God’s own home. This four hundred year old church is heavily adorned with ornamental forms of architecture which can be seen rarely in any other monument making it one of the best places to visit in Daman.The cathedral was constructed in 1603 by the Portugeuse invaders and it still stands in a very good condition. Mass prayers are offered on the weekends in the cathedral to wipe away the sufferings of the people."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Naida Caves"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/naidacaves"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="A group of interlinked caves located outside the city wall of the Diu Fort. These caves were in a way constructed by the Portuguese since they were breaking a large rock formation for construction. Over the years, due to geological irregularities and natural processes over time, the caves got their shape. It is a network of tunnels with cleaved steps in between. Take a walk here to admire this wondrous creation. This natural masterpiece is still the less popular tourist attraction; however, it is one of the places to see in Diu. An excellent place for a photoshoot, it also has interesting trivial information about its history which would spike the interest of all history buffs."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="St.Jerome Fort"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stjerome"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="St. Jerome Fort is one of the best tourist attractions in Daman for all those who wish to soak into the rich Colonial history of Daman. It is also known as Nani Daman Fort and it was constructed in the 17th century by the Portuguese invaders. It has an expansive courtyard and an arched gateway that are adorned with beautiful sculptures. The fort houses the magnanimous statue of St. Jerome who is known to be the eminent father of the Catholic churchs. The complex of the fort also houses other attractions such as a Jain Temple and Lady Of the Sea. A fish market is held below the fort where you can buy various varieties of fishes."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jalandhar Beach"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jalandharbeach"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="This beach is located a kilometre away from the city, and yet it is a quiet and sparsely crowded beach in Diu. The beach was named after the mythological Hindu demon Jalandhar whose shrine is located on a hillock, close to the beach. A temple dedicated to goddess Chandrikais is also here. The beach has a few private resorts, perfect for a stay on the beach, quite literally. There are plenty of water-sports that are hosted as part of the attraction. You can expect tranquillity amidst the swaying palm trees, the cool ocean breeze and the soft sand under your feet. One of the more romantic things you must do is experience the beachfront dining with the spectacular sea-view."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gangeshwar Mahadev"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gangeshwar"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="The temple is dedicated to Lord Shiva and is located 3 kms from Diu in Fudam Village. Situated at the Arabian Sea, the temple is surrounded with scenic beauty and ataraxy. It is a cave temple located amid rocks on the seashore and is an essential religious site in Diu. The statues of Lord Ganesha, Lord Vishnu, and Goddess Lakshmi can be found at the entrance of the temple. It is an over 5000 years old temple that has the presiding idol of Gangeshwar, who is considered to be the Lord of River Ganga and a form of Lord Shiva whose tresses descend the river on earth. The temple possesses five Shiva Lingam of different sizes that are believed to be built by the Pandavas. These lingas are submerged in the sea during high tides and only during the low tides are the tips visible."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity136">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Leela Kovalam, a Raviz Hotel"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/leelakovalam" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Built on a cliff-top and spread over 60 acres of lush greenery, this luxury resort is cradled between wide sweeping beaches and has a panoramic view of the famous Kovalam coastline. Offering the best of nature in utmost comfort and privacy, this tropical paradise is lapped by emerald seas, while sandy tracks lead to deserted coves along the beach. Reflecting the best of local culture with delectable dining, 188 magnificent rooms, traditional ayurvedic practices and unparalleled service, The Leela Kovalam, a Raviz Hotel brings together an impossibly rare amalgamation of elements that takes its guests on a journey of sights, sounds and tastes."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Taj Green Cove Resort &amp; Spa, Kovalam"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tajkovalam" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="The 16 acre Taj Green Cove, our  resort in Kovalam, has a kilometre of coastline, Balinese style villas nestled on a hillock overlooking the Ocean with a lagoon in between. Ayurveda and Jiva spa lead by a Naturopathy Doctor. Wellness Spa therapies as well as A holistic Wellness Routine is crafted on request by our Wellness Doctor. The Sea view villas &amp; suites, exclusive Pool Villas as well as Tropical Garden view rooms are all architected in a Balinese Style with exquisite wooden furnishing, 24 hour in-room dining. All Villas have been particularly designed to blend into the tropical gardens around, the bathrooms embodying a unique stone sculpture garden. Sprawling lawns and wooden walkways along the coastline, jogging trails allow guests to run along different terrains, down the hillock from their rooms, along the lagoon and seaside. Sunsets are photographed along with high tea and typical Kerala snacks hosted by the Taj Green Cove every evening. Children and adults enjoy a tranquil evening country boat ride along the lagoon. If tranquillity is what you are looking for, the seaside beds along the coastline will have you asking for more! The Infinity Pool and Fitness centre at our seaside resort in Kovalam overlook the lagoon &amp; the ocean, the Ayurveda Spa room has a private plunge pool and dining nook. All Jiva Spa treatment rooms have a private stone sculpture garden view. The kid’s activity room has carom and other board games, books, toys along with a full-time care- taker and baby-sitting services on request. The Seaside Specialty Restaurant “Bait” is uniquely located with the tranquil backwaters to one side and the roaring Arabian Sea with sandy dining as its facade. The world-renowned “Bait” is also frequented for its exhaustive variety of vegetarian platters and wood-fired marinades give plenty of options for every palate. An all-day Diner “Jasmine Bay” offers poolside dining with Asian and Continental menus. A daily Wellness routine can be curated on request. ”Curries” an A/C Restaurant serves typical Kerala &amp; other Indian specialties. “Neera Bar” serves signature cocktails and zesty bar-snacks. Our Kovalam seaside resort is a 20 minute drive from the Trivandrum International airport. Trivandrum city is a 40 minute drive with Kuthira Malika Palace &amp; Napier Museum, the Zoo, the Padmanabha Swamy Temple, Kanakakkunnu Palace, numerous churches &amp; other city sites on offer along with the central shopping district. Travel services include airport transfers, Kovalam sightseeing, leisure activity organizing like Scuba-diving, para-gliding, beach &amp; other ocean sports, backwater boating, bird-watching and more. Beach at the resort is seasonal and becomes accessible only during November till Mid-March subject to permissible weather conditions. Hospitality at the Taj Green Cove Kovalam is unparalleled in its personalized touch &amp; exclusive five-star luxury generosity!"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vivanta Thiruvananthapuram"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vivantathiru"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Thiruvananthapuram, the stately and easy-going capital city of Kerala, has recently been ushered into the fast lane. Transformation is in the air. The city’s world-class IT hub, Technopark, has made Kerala a crucible of cutting edge tech. It is this vibrant, energised, Thiruvananthapuram, that Vivanta feels a kinship to. The all-new Vivanta Thiruvananthapuram is a stylish and sophisticated city hotel located in the heart of the capital, just 06 kilometres from the airport and merely minutes away from the distinguished Secretariat and State Assembly buildings. On offer are 108 well appointed rooms, a specialty restaurant, a lively all day diner and smartly designed spaces complemented with contemporary service. All set in an environment buzzing with the Vivanta vibe. The Hotel’s convenient location allows guests to soak in everything the City has to offer. MG Road, a true mecca for shoppers, is a happy stroll away. The legendary Padmanabhaswamy Temple is barely 5 kilometres away and Kerala's world-class IT hub, Technopark, is also in the vicinity. In short, Vivanta Thiruvananthapuram is the ideal city pitstop for business travellers and leisure seekers alike with much to tempt the gourmet as well. Mynt, our all-day diner, is up early for breakfast, bustling in the afternoons, and awake late into the night, with a truly global menu. Swirl, our patisserie and deli is ideal for a quick catch-up with friends and colleagues. And if all that indulgence makes you guilty, fret not. We are home to a state-of-the-art fitness centre where you can burn those calories away and a rooftop infinity swimming pool that will put you on top of the world. Vivanta Thiruvananthapuram also has some of the city's most impressive conferencing facilities including one of the city's finest rooftop open-air banqueting venue. Come discover Vivanta Thiruvananthapuram. And feel the pulse of God's Own Country."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

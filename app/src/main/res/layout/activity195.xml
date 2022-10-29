@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity195">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Radisson Jalandhar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radissonjala" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Situated less than two kilometers from the Jalandhar City Junction railway station and the USN Nagar bus stop, Radisson Jalandhar offers easy access to the city’s booming business district, including leather and hand tool industries, as well as to Adampur Airport (AIP). Our hotel is also just minutes from local corporations like Ranson Sports Industry and DUA Plastic Industries along with the largest healthcare services in Asia. After shopping at nearby MBD Neopolis during your downtime, share a mouthwatering meal with your colleagues at one of our three on-site restaurants. You can unwind with a relaxing dip in our spacious outdoor pool or a workout in the fitness center. Stay productive with convenient amenities like free Wi-Fi, a business center, and professional meeting rooms."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ramada by Wyndham Jalandhar City Centre"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ramadajala" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="When the warmth and quality of Ramada Worldwide joins hand with Punjab’s renowned hospitality, you can be assured that your experience at Ramada by Wyndham Jalandhar City Centre will be exceedingly special. The USP of our hotel is the ‘city centre’ location, the newly built hotel is conveniently located in the commercial and business district, just an hour's drive from the Raja Sansi Amritsar International airport and only minutes away from the city railway station. Ramada Jalandhar City Centre embodies the new attitude of contemporary travel. For whatever reasons you are traveling, be it for business or pleasure, Ramada by Wyndham Jalandhar City Centre caters to your every need."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sarovar Portico, Jalandhar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sarovarporticojala"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Welcome to Sarovar Portico, Jalandhar, a contemporary business hotel, offering the best-in-class facilities and ultimate comforts. The hotel is located in proximity to major tech hubs in the city, 10 minutes from Jalandhar Railway Station and the ISBT Bus Stop, and 15 km away from Wonderland Amusement Park. The hotel acts as a transit hotel for many and caters to business travellers as well as leisure tourists. Sarovar Portico, Jalandhar, features modern rooms in four categories. Deluxe Double Bed Room and Deluxe Twin Bed Roomare ideal for couples and business travellers respectively, while Friends &amp; Family Rooms are ideal for those travelling in groups. Suites are perfect for those looking for a grand stay experience. Have a great dining experience at Café 181, our in-house restaurant that serves multi-cuisine delights. Guests can enjoy refreshing beverages at The Lounge, a chic bar. The banquet halls at our hotel are outfitted with up-to-date equipment, ensuring ease of organizing business and social events. Our Guests can avail assistance from the travel desk and explore the city at ease."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

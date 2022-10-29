@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity286">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Hotels (For Stay)"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Welcomhotel By ITC Hotels, Bay Island, Port Blair"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/welcomhotelpb" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Lying at the confluence of the Bay of Bengal and the Andaman Sea, the Andaman &amp; Nicobar Islands offer awe-inspiring architectural monuments, pristine beaches, palm-lined shores and some of the finest diving and snorkelling options in Asia. Drawing inspiration from picture-perfect surroundings and local culture, Welcomhotel Port Blair celebrates the quintessential island life, the rawness of untouched forests, carefreeness of island spirit and beauty of indigenous architecture. Built on a hill and designed by the famed architect, late Charles Correa, the hotel overlooks lush greenery and pristine blue waters of the Bay of Bengal. With large overhanging roofs and a series of decks that cascade down the hillside, the hotel was built in 1981 using indigenous materials such as local timber called Pedauk."
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lemon Tree Hotel, Port Blair"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lemontreepb" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Nestled within the breath-taking islands of Andaman and Nicobar, and on the coastal land of its capital, Lemon Tree Hotel, Port Blair is just opposite the Veer Savarkar International Airport. The hotel is a short distance away from the Cellular Jail, Japanese Bunkers, Fisheries Museum, Anthropological Museum, Samudrika Marine Museum, Corbyn’s Cove Beach, and Science City. The hotel’s strategic location also offers easy access to Port Blair’s key attractions such as Haddo (4 kms), Wandoor Beach (28 kms) and Chidiya Tapu – Sunset Beach (28 kms). Lemon Tree Hotel, Port Blair features contemporary interiors, seamless service and a whiff of the signature lemon fragrance. The hotel offers 48 rooms and suites, a multi-cuisine coffee shop - Citrus Café, a hip recreation bar – Slounge and conference areas to meet all business requirements. It is also the only hotel with ample parking space as well. It is the ideal destination for a vacation with friends or family, to explore the magnificent underwater world along with various water sports activities. While making online hotel bookings and looking for hotels in Port Blair near the airport, don’t forget to add Lemon Tree Hotel to your bucket list."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sinclairs Bayview Port Blair"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sinclairspb"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Located right on the waterfront, Sinclairs Bayview is Port Blair's only hotel to offer spectacular views of The Bay of Bengal from almost all its rooms. Refreshingly environment friendly and functionally decorated, the hotel is a quiet getaway for those who want to unwind and explore the Andamans. The hotel is 15 minutes away from the airport and the town’s shopping center. The hotel's 46 rooms and suites are more than sea facing; they are virtually on the sea, opening out to the crystal blue Indian Ocean waters. The Valentine rooms offer views of the blue ocean on one side, and Ross Island on the other. The sea facing multicuisine restaurant has an open view to the garden surrounded by palm trees. A covered deck allows you to feel the cool sea breeze and hear the sound of waves. The Spanish bar has a relaxed old world ambience and offers snacks and drinks. Private candlelight dinners can be organised for your birthday or anniversary. On special request, we serve meals at the terrace adjoining the main reception area. The freshwater swimming pool is open all year round. Our conference room is a unique pillar-less wooden house entirely made out of recycled wood. Few may know that the Andaman Islands were occupied by the Japanese for a few years during World War II. An attraction that is rare to find in any hotel in the world, is a Bunker made during the war which is located inside the hotel, with its canon still in place! Port Blair is an inviting holiday destination round the year, and is a base to explore the Andaman Islands. The blue sea, rain forests and clean tropical air make it an ideal destination for nature lovers. For adventure aficionados, there’s scuba diving and snorkeling to discover under-water marine life and rare varieties of corals."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

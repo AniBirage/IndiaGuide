@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiabg"
+    tools:context=".Activity219">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Tourist Attractions"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Marina Beach"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marinabeach" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="India's largest beach is right around the corner when one is in Chennai. With an extent from Fort St. George to Besant Nagar, the beach is lined with up palm trees. A view when sky and water meet at both the ends is just visible right in front of the eyes when one stands at the shores."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Santhome Cathedral Basilica"
+                android:layout_marginTop="1dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stthomaschurch" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Santhome Church is a standing testament to the belief of the Christian followers and is among the three wonders of this world that house the tombs of Christ’s original disciple. The other two are Santiago de Compostela in Spain and St. Peter’s Basilica in Vatican City. It was constructed in the memory of Saint Thomas who was an Apostle of Jesus Christ. Santhome Church is the greatest symbol of multi-culture and religious harmony as people from all religions visit this Church to seek solace and eternal peace.This church was built initially as a mausoleum, but it has now transversed into a Basilica owing to it’s gaining popularity and importance. Beneath the towering white embodiment of this basilica lies the body of Saint Thomas who came to India in 52 AD to preach about Christianity. He was successful in converting a large population of the locals residing in Tamil Nadu and Kerala with his wisdom and powerful preaching. He thereafter formed a community that is now known as Syrian Christians. This church also houses a museum that displays souvenirs of Saint Thomas and gives visitors an insight into the glorious past of this church during the historical times."
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kapaleeswarar Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kapaleeswarartemple"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Tamil Nadu, a land of religious diversity and rich culture, is also home to some astonishing temples. Amongst it, there is Kapaleeshwarar Temple, a holy place situated in Mylapore. According to popular folklore, the temple traces its history back to the 7th and 16th century. This place is known for its history, architectural styles, and spirituality. The temple was built to worship Lord Shiva and other deities. Kapaleeshwarar temple resonates the rich Tamil religious culture. Its premises consist of sculptures of Lord Shiva and Goddess Parvathi. Moreover, the temple is home to shrines of Tamil Shaivite saint poets Nayaars. The structure of these shrines is marked with towering domes or Gopurams. Every structure light up during major festivals. From March to April, Kapaleeshwarar celebrates the religious sentiments during the Brahmotsavam festival. Devotees flock this temple and attend the grandeur of spirituality and Pooja services. Kapaleeshwarar temple hosts five types of Pujas, Ko Puja, Vaikarai Puja, Kaala sandhi Puja, Uchi Kaala Puja, and Ardhajama Puja. Visitors often schedule and take part in the Puja services. With the help of local priests, you can indulge in buying temple offerings and completing rituals. Also, if you are fond of artistic wonders, this place is going to win your heart."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Fort St. George"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fortstgeorge"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="History of India with the British is a fact that can't be changed. And the live example standing in front is Fort St. George. During British rule, it was made as a centre point for official purposes but now encompasses St. George museum with paintings, coins, silverware, arms, porcelain, and documents. .It has given space to historic monuments of St. Mary's church under its cloud. The Flagstaff at the Fort is one of the tallest structure in the country."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ashtalaxmi Temple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ashtalakshmitemple"/>
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="Lying on the gorgeous expanse of the Besant Beach, this is the only temple dedicated to Goddess Mahalakshmi on Tamil Nadu’s east coast. You can see the idols of Dashavatara, Ganesha, and Guruvayoorappan. The magnificence of the architecture lies in its ‘OM’ shaped design, making it one of the most enchanting places to visit in Chennai. Visit during festivals like Navaratri, Diwali, and Pongal to see the temple in its full splendour. Don’t miss to attend the evening puja, a beautifully serene experience accentuated by the enveloping cool sea breeze."
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
